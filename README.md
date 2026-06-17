@@ -13,51 +13,69 @@
 
 ## 项目说明
 
-本仓库基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 创建，用于二次开发一个更偏向数字取证行业的开源工具虚拟机。项目会在原有渗透测试与安全工具环境基础上，逐步补充和整理更多取证、溯源、应急响应、证据分析、流量分析、内存分析、移动端取证、磁盘镜像分析等方向的工具。
+本仓库基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 二次开发，目标是在原 Windows 安全工具虚拟机基础上，补充更适合数字取证、电子数据取证、应急响应、CTF Forensics、溯源分析和证据处理场景的工具链。
 
-当前计划长期维护并持续更新，也欢迎数字取证、安全应急、CTF Forensics、蓝队分析等方向的朋友一起投稿、补充工具清单、提交配置优化、维护镜像构建流程。
+项目会持续更新，也欢迎取证、安全应急、CTF、蓝队分析方向的朋友一起投稿、补充工具、修正文档或维护安装脚本。
 
-## 计划补充方向
+## 调研依据
 
-- 磁盘与文件系统取证：镜像挂载、文件恢复、时间线分析、元数据提取。
-- 内存取证：Volatility、MemProcFS、进程与凭据分析相关工具。
-- 流量与日志分析：Wireshark、Zeek、NetworkMiner、日志聚合与检索工具。
-- 移动端与应用取证：Android/iOS 取证辅助、数据库解析、聊天记录分析。
-- 恶意样本与逆向辅助：静态分析、沙箱、YARA、IOC 提取。
-- CTF Forensics：隐写、压缩包、流量包、磁盘镜像、杂项分析工具。
-- 证据管理与报告：哈希校验、取证流程记录、报告模板和案例复现环境。
+为避免“凭感觉加工具”，本仓库已经整理了一份取证 WP 与工具出现频率调研，作为下一阶段虚拟机更新依据：
+
+- [取证 WP 与工具频率调研说明](research/forensics-tool-survey/README.md)
+- [WP 原始链接表](research/forensics-tool-survey/wp_links.csv)
+- [工具频率总表](research/forensics-tool-survey/tool_frequency_total.csv)
+- [DIDCTF 工具数据库](research/forensics-tool-survey/didctf_tool_database.csv)
+
+调研数据来自以下站点：
+
+- [Yagami](https://www.yagami.vip)
+- [西电取证平台](https://forensics.xidian.edu.cn)
+- [DIDCTF 取证平台](https://forensics.didctf.com)
+
+## 下一阶段优先更新工具
+
+下面清单来自 [工具频率总表](research/forensics-tool-survey/tool_frequency_total.csv) 的高频结果，并结合 [DIDCTF 工具数据库](research/forensics-tool-survey/didctf_tool_database.csv) 中能追溯到的项目链接整理。优先级会随着后续 WP 数据和工具维护状态继续调整。
+
+| 工具 / 平台 | 统计频次 | 更新方向 | 链接 |
+| --- | ---: | --- | --- |
+| 火眼证据分析 | 552 | 证据分析、镜像解析、综合取证环境适配 | 待补充官方来源 |
+| [hashcat](https://github.com/hashcat/hashcat) | 116 | 密码恢复、哈希破解、GPU 环境与字典配置 | [官网](https://hashcat.net/hashcat/) |
+| 盘古石 | 96 | 竞赛常用取证平台与题目环境兼容性整理 | 待补充官方来源 |
+| [John the Ripper](https://github.com/openwall/john) | 92 | 密码恢复、格式转换脚本、常见取证题型适配 | [官网](https://www.openwall.com/john/) |
+| [FTK Imager](https://www.exterro.com/ftk-imager) | 88 | 镜像查看、证据导出、哈希校验流程 | [DIDCTF 工具库](research/forensics-tool-survey/didctf_tool_database.csv) |
+| 美亚取证 | 85 | 电子数据取证平台相关兼容与案例说明 | 待补充官方来源 |
+| [VMware](https://www.vmware.com/) | 65 | 虚拟机镜像运行、快照、实验环境模板 | [官网](https://www.vmware.com/) |
+| [IDA](https://hex-rays.com/ida-free/) | 57 | 逆向分析、样本分析、插件与脚本整理 | [官网](https://hex-rays.com/ida-free/) |
+| [Volatility](https://github.com/volatilityfoundation/volatility) / [Volatility3](https://github.com/volatilityfoundation/volatility3) | 56 | 内存取证、插件、profile/symbol 管理 | [Volatility Foundation](https://volatilityfoundation.org/) |
+| [X-Ways Forensics](https://www.x-ways.net/forensics/) | 46 | 商业取证工具适配说明、替代方案与流程记录 | [官网](https://www.x-ways.net/forensics/) |
+| [ADB](https://developer.android.com/tools/adb) | 40 | Android 取证、设备连接、数据导出脚本 | [Android Developers](https://developer.android.com/tools/adb) |
+| [010 Editor](https://www.sweetscape.com/010editor/) | 40 | 二进制模板、文件结构分析、常见格式模板 | [官网](https://www.sweetscape.com/010editor/) |
+| [JADX](https://github.com/skylot/jadx) | 40 | APK 反编译、移动端取证辅助 | [GitHub](https://github.com/skylot/jadx) |
+| [CyberChef](https://github.com/gchq/CyberChef) | 38 | 编码解码、数据转换、CTF Forensics 常用流程 | [在线版](https://gchq.github.io/CyberChef/) |
+| [Wireshark](https://www.wireshark.org/) | 35 | 流量包分析、协议解析、过滤器模板 | [官网](https://www.wireshark.org/) |
+| 取证大师 | 32 | 综合取证平台相关兼容与案例说明 | 待补充官方来源 |
+| 弘连 | 26 | 手机取证、聊天记录分析、行业工具对照 | 待补充官方来源 |
+| [7-Zip](https://www.7-zip.org/) | 19 | 压缩包分析、密码恢复前处理、批量解包 | [官网](https://www.7-zip.org/) |
+| 雷电 APP 智能分析 | 14 | 移动应用取证与分析场景补充 | 待补充官方来源 |
+| [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) | 14 | SQLite 数据库查看、聊天记录与应用数据分析 | [官网](https://sqlitebrowser.org/) |
+| [binwalk](https://github.com/ReFirmLabs/binwalk) | 12 | 固件与文件嵌入分析、CTF 杂项分析 | [GitHub](https://github.com/ReFirmLabs/binwalk) |
+| [Autopsy](https://www.autopsy.com/) | 9 | 磁盘镜像分析、时间线、文件恢复 | [GitHub](https://github.com/sleuthkit/autopsy) |
 
 ## 参与贡献
 
-欢迎通过 Issue 或 Pull Request 参与维护。你可以提交：
+欢迎通过 Issue 或 Pull Request 参与维护。推荐提交内容包括：
 
-- 新工具推荐：请说明工具用途、官网或仓库地址、许可证、适用场景。
+- 新工具推荐：说明用途、官网或仓库地址、许可证、适用场景。
 - 工具分类优化：让取证、应急、CTF、逆向、流量等分类更清晰。
 - 安装和配置脚本：优先选择官方来源、可复现、可校验的安装方式。
-- 文档修正：包括工具说明、版本信息、使用注意事项和截图。
+- 文档修正：补充工具说明、版本信息、使用注意事项和截图。
 - 镜像构建建议：例如系统优化、快捷启动、环境变量和依赖隔离。
 
 详细贡献说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-## Research Basis
-
-为后续虚拟机中的取证工具增删、升级和分类调整建立可追溯依据，仓库已补充一份独立的调研资料：
-
-- [research/forensics-tool-survey](C:/Users/77359/Documents/GZCTF/forensic-suite-toolkit/research/forensics-tool-survey/README.md)
-- [research/forensics-tool-survey](research/forensics-tool-survey/README.md)
-
-其中包含：
-
-- 本轮分析使用的网站来源
-- DIDCTF 原始快照数据
-- 清洗后的 CSV / JSON 结果
-- 采集与分析脚本
-- 可直接用于下一阶段工具更新的总结
-
 ## 许可证与来源说明
 
 本仓库从上游项目 fork 而来。上游仓库当前未声明明确开源许可证，因此本项目在再分发、二次开发和合并第三方工具时会尽量保留来源信息，并优先收录许可证清晰、允许再分发或可通过官方渠道安装的工具。更多说明见 [NOTICE.md](NOTICE.md)。
-
 ---
 
 <h1 align="center">Windows11 Penetration Suite Toolkit v6.0</h1>
