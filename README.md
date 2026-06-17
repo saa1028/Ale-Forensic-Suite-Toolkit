@@ -34,36 +34,37 @@
 
 ## 下一阶段优先更新工具
 
-下面清单来自最新版 [工具频率总表](research/forensics-tool-survey/tool_frequency_total.csv)，该表由 [build_tool_frequency_total.py](research/forensics-tool-survey/scripts/build_tool_frequency_total.py) 重建，候选来源包括旧版手工别名、[DIDCTF 工具数据库](research/forensics-tool-survey/didctf_tool_database.csv) 的 135 个工具名，以及补充的高可信取证工具名。当前总表共 168 行，并新增 `deployment`、`license_type`、`domestic_vendor` 三个字段，用于区分在线工具、本地工具、开源工具、商业工具和国内取证厂商工具。优先级会随着后续 WP 数据和工具维护状态继续调整。
+下面清单来自最新版 [工具频率总表](research/forensics-tool-survey/tool_frequency_total.csv)，该表由 [build_tool_frequency_total.py](research/forensics-tool-survey/scripts/build_tool_frequency_total.py) 重建，候选来源包括旧版手工别名、[DIDCTF 工具数据库](research/forensics-tool-survey/didctf_tool_database.csv) 的 135 个工具名，以及补充的高可信取证工具名。当前总表共 168 行，并新增 `deployment`、`license_type`、`domestic_vendor` 三个字段，用于区分在线工具、本地工具、开源工具、商业工具和国内取证厂商工具。
 
-| 工具 / 平台 | 最新统计频次 | 更新方向 | 链接 |
+| 工具 | 频次 | 更新重点 | 来源 |
 | --- | ---: | --- | --- |
-| 火眼证据分析 | 552 | 证据分析、镜像解析、综合取证环境适配 | 待补充官方来源 |
-| [hashcat](https://github.com/hashcat/hashcat) | 239 | 密码恢复、哈希破解、GPU 环境与字典配置 | [官网](https://hashcat.net/hashcat/) |
-| [Frida](https://github.com/frida/frida) | 178 | 移动端取证、应用动态分析、Hook 调试环境 | [官网](https://frida.re/) |
-| [FTK Imager](https://www.exterro.com/ftk-imager) | 132 | 镜像查看、证据导出、哈希校验流程 | [DIDCTF 工具库](research/forensics-tool-survey/didctf_tool_database.csv) |
-| [Volatility](https://github.com/volatilityfoundation/volatility) / [Volatility3](https://github.com/volatilityfoundation/volatility3) | 104 | 内存取证、插件、profile/symbol 管理 | [Volatility Foundation](https://volatilityfoundation.org/) |
-| 盘古石 | 96 | 竞赛常用取证平台与题目环境兼容性整理 | 待补充官方来源 |
-| [John the Ripper](https://github.com/openwall/john) | 94 | 密码恢复、格式转换脚本、常见取证题型适配 | [官网](https://www.openwall.com/john/) |
-| 美亚取证 | 85 | 电子数据取证平台相关兼容与案例说明 | 待补充官方来源 |
-| [CyberChef](https://github.com/gchq/CyberChef) | 80 | 编码解码、数据转换、CTF Forensics 常用流程 | [在线版](https://gchq.github.io/CyberChef/) |
-| [Wireshark](https://www.wireshark.org/) | 78 | 流量包分析、协议解析、过滤器模板 | [官网](https://www.wireshark.org/) |
-| [VMware](https://www.vmware.com/) | 65 | 虚拟机镜像运行、快照、实验环境模板 | [官网](https://www.vmware.com/) |
-| [IDA](https://hex-rays.com/ida-free/) | 57 | 逆向分析、样本分析、插件与脚本整理 | [官网](https://hex-rays.com/ida-free/) |
-| [DIE](https://github.com/horsicq/Detect-It-Easy) | 49 | 文件查壳、格式识别、样本初筛 | [GitHub](https://github.com/horsicq/Detect-It-Easy) |
-| [X-Ways Forensics](https://www.x-ways.net/forensics/) | 46 | 商业取证工具适配说明、替代方案与流程记录 | [官网](https://www.x-ways.net/forensics/) |
-| [iLEAPP](https://github.com/abrignoni/iLEAPP) | 42 | iOS 应用数据解析、移动取证报告生成 | [GitHub](https://github.com/abrignoni/iLEAPP) |
-| [010 Editor](https://www.sweetscape.com/010editor/) | 40 | 二进制模板、文件结构分析、常见格式模板 | [官网](https://www.sweetscape.com/010editor/) |
-| [ADB](https://developer.android.com/tools/adb) | 40 | Android 取证、设备连接、数据导出脚本 | [Android Developers](https://developer.android.com/tools/adb) |
-| [JADX](https://github.com/skylot/jadx) | 40 | APK 反编译、移动端取证辅助 | [GitHub](https://github.com/skylot/jadx) |
-| 取证大师 | 32 | 综合取证平台相关兼容与案例说明 | 待补充官方来源 |
-| [Passware Kit](https://www.passware.com/) | 29 | 加密文件处理、密码恢复、取证密码工具链 | [官网](https://www.passware.com/) |
-| [binwalk](https://github.com/ReFirmLabs/binwalk) | 28 | 固件与文件嵌入分析、CTF 杂项分析 | [GitHub](https://github.com/ReFirmLabs/binwalk) |
-| [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) | 27 | SQLite 数据库查看、聊天记录与应用数据分析 | [官网](https://sqlitebrowser.org/) |
-| [LiME](https://github.com/504ensicsLabs/LiME) | 26 | Linux/Android 内存采集 | [GitHub](https://github.com/504ensicsLabs/LiME) |
-| 弘连 | 26 | 手机取证、聊天记录分析、行业工具对照 | 待补充官方来源 |
-| [7-Zip](https://www.7-zip.org/) | 19 | 压缩包分析、密码恢复前处理、批量解包 | [官网](https://www.7-zip.org/) |
-| [Autopsy](https://www.autopsy.com/) | 18 | 磁盘镜像分析、时间线、文件恢复 | [GitHub](https://github.com/sleuthkit/autopsy) |
+| 火眼证据分析 | 552 | 证据分析、镜像解析 | 待补充 |
+| hashcat | 239 | 密码恢复、哈希破解 | [GitHub](https://github.com/hashcat/hashcat) / [官网](https://hashcat.net/hashcat/) |
+| Frida | 178 | 移动端动态分析、Hook | [GitHub](https://github.com/frida/frida) / [官网](https://frida.re/) |
+| FTK Imager | 132 | 镜像查看、证据导出 | [官网](https://www.exterro.com/ftk-imager) |
+| Volatility | 104 | 内存取证、插件管理 | [GitHub](https://github.com/volatilityfoundation/volatility3) / [官网](https://volatilityfoundation.org/) |
+| 盘古石 | 96 | 竞赛平台、题目环境 | 待补充 |
+| John the Ripper | 94 | 密码恢复、格式转换 | [GitHub](https://github.com/openwall/john) / [官网](https://www.openwall.com/john/) |
+| 美亚取证 | 85 | 电子数据取证平台 | 待补充 |
+| CyberChef | 80 | 编码解码、数据转换 | [GitHub](https://github.com/gchq/CyberChef) / [在线版](https://gchq.github.io/CyberChef/) |
+| Wireshark | 78 | 流量包分析、协议解析 | [官网](https://www.wireshark.org/) |
+| VMware | 65 | 虚拟机、快照环境 | [官网](https://www.vmware.com/) |
+| IDA | 57 | 逆向分析、样本分析 | [官网](https://hex-rays.com/ida-free/) |
+| DIE | 49 | 文件查壳、格式识别 | [GitHub](https://github.com/horsicq/Detect-It-Easy) |
+| X-Ways Forensics | 46 | 商业取证流程对照 | [官网](https://www.x-ways.net/forensics/) |
+| iLEAPP | 42 | iOS 应用数据解析 | [GitHub](https://github.com/abrignoni/iLEAPP) |
+| 010 Editor | 40 | 二进制模板、结构分析 | [官网](https://www.sweetscape.com/010editor/) |
+| ADB | 40 | Android 连接、数据导出 | [文档](https://developer.android.com/tools/adb) |
+| JADX | 40 | APK 反编译 | [GitHub](https://github.com/skylot/jadx) |
+| 取证大师 | 32 | 综合取证平台 | 待补充 |
+| Passware Kit | 29 | 加密文件处理、密码恢复 | [官网](https://www.passware.com/) |
+| binwalk | 28 | 固件与文件嵌入分析 | [GitHub](https://github.com/ReFirmLabs/binwalk) |
+| SQLite Browser | 27 | SQLite 数据库查看 | [GitHub](https://github.com/sqlitebrowser/sqlitebrowser) / [官网](https://sqlitebrowser.org/) |
+| LiME | 26 | Linux/Android 内存采集 | [GitHub](https://github.com/504ensicsLabs/LiME) |
+| 弘连 | 26 | 手机取证、聊天记录分析 | 待补充 |
+| 7-Zip | 19 | 压缩包处理、批量解包 | [官网](https://www.7-zip.org/) |
+| Autopsy | 18 | 磁盘镜像、时间线分析 | [GitHub](https://github.com/sleuthkit/autopsy) / [官网](https://www.autopsy.com/) |
+
 国内取证厂商工具会在 CSV 的 `domestic_vendor` 字段中单独标记，当前已明确归类：`盘古石 -> 盘古石`，`美亚取证 / 取证大师 -> 美亚柏科`，`弘连 / 火眼证据分析 / 火眼仿真取证 / 雷电 APP 智能分析 -> 弘连`。
 
 ## 参与贡献
