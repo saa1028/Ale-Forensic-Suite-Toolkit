@@ -1,3 +1,50 @@
+<h1 align="center">Forensic Suite Toolkit</h1>
+
+<p align="center">
+  <strong>面向数字取证、应急响应、CTF Forensics 和安全分析场景的 Windows 虚拟机工具集。</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Digital%20Forensics-blue.svg">
+  <img src="https://img.shields.io/badge/Platform-Windows%20VM-red.svg">
+  <img src="https://img.shields.io/badge/Status-Updating-brightgreen.svg">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-orange.svg">
+</p>
+
+## 项目说明
+
+本仓库基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 创建，用于二次开发一个更偏向数字取证行业的开源工具虚拟机。项目会在原有渗透测试与安全工具环境基础上，逐步补充和整理更多取证、溯源、应急响应、证据分析、流量分析、内存分析、移动端取证、磁盘镜像分析等方向的工具。
+
+当前计划长期维护并持续更新，也欢迎数字取证、安全应急、CTF Forensics、蓝队分析等方向的朋友一起投稿、补充工具清单、提交配置优化、维护镜像构建流程。
+
+## 计划补充方向
+
+- 磁盘与文件系统取证：镜像挂载、文件恢复、时间线分析、元数据提取。
+- 内存取证：Volatility、MemProcFS、进程与凭据分析相关工具。
+- 流量与日志分析：Wireshark、Zeek、NetworkMiner、日志聚合与检索工具。
+- 移动端与应用取证：Android/iOS 取证辅助、数据库解析、聊天记录分析。
+- 恶意样本与逆向辅助：静态分析、沙箱、YARA、IOC 提取。
+- CTF Forensics：隐写、压缩包、流量包、磁盘镜像、杂项分析工具。
+- 证据管理与报告：哈希校验、取证流程记录、报告模板和案例复现环境。
+
+## 参与贡献
+
+欢迎通过 Issue 或 Pull Request 参与维护。你可以提交：
+
+- 新工具推荐：请说明工具用途、官网或仓库地址、许可证、适用场景。
+- 工具分类优化：让取证、应急、CTF、逆向、流量等分类更清晰。
+- 安装和配置脚本：优先选择官方来源、可复现、可校验的安装方式。
+- 文档修正：包括工具说明、版本信息、使用注意事项和截图。
+- 镜像构建建议：例如系统优化、快捷启动、环境变量和依赖隔离。
+
+详细贡献说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 许可证与来源说明
+
+本仓库从上游项目 fork 而来。上游仓库当前未声明明确开源许可证，因此本项目在再分发、二次开发和合并第三方工具时会尽量保留来源信息，并优先收录许可证清晰、允许再分发或可通过官方渠道安装的工具。更多说明见 [NOTICE.md](NOTICE.md)。
+
+---
+
 <h1 align="center">Windows11 Penetration Suite Toolkit v6.0</h1>
 
 <p align="center">
