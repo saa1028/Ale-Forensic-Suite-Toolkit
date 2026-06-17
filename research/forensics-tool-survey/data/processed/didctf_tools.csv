@@ -1,0 +1,136 @@
+﻿title,description,tags,download,github,website
+Lovelymem Luxe,一款基于 MemProcFS、Volatility2、Volatility3 的快捷内存取证工具。,内存取证 | volatility | 付费软件,,,https://auth.mzy0.com/login
+Volatility2,Volatility 2.6 是 Volatility 2.x 系列的最后一个主要版本，于 2016 年由 Volatility Foundation 发布，是一款开源的内存取证框架，广泛用于数字取证、应急响应和恶意软件分析。,内存取证,https://github.com/volatilityfoundation/volatility/releases/tag/2.6.1,https://github.com/volatilityfoundation/volatility,https://volatilityfoundation.org/
+DumpIt,小巧便携的Windows内存转储工具，一步生成物理内存镜像，支持32/64位系统，适合现场快速取证部署,内存取证 | 内存转储 | 现场取证,https://forensics.didctf.com/%E2%80%94,https://forensics.didctf.com/%E2%80%94,https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/
+MAGNET RAM Capture,MAGNET公司出品的免费内存镜像工具，仅300KB+，支持镜像分段存储，操作极简，适合快速响应,内存取证 | 内存镜像 | 分段存储,https://forensics.didctf.com/%E2%80%94,https://forensics.didctf.com/%E2%80%94,https://www.magnetforensics.com/resources/magnet-ram-capture/
+Volatility3,Volatility基金会发布的最新版开源内存取证框架，完全用Python3重写，支持Windows/Linux/macOS/Android多平台内存分析,内存取证 | volatility | Python3,https://forensics.didctf.com/%E2%80%94,https://github.com/volatilityfoundation/volatility3,https://volatilityfoundation.org/
+LiME,Linux内核可加载模块，用于获取Linux和Android设备的完整物理内存转储，支持多种输出格式,Linux | 内存转储 | Android | +1,,https://github.com/504ensicsLabs/LiME,
+MemProcFS,将物理内存转储以虚拟文件系统形式挂载的创新工具，可直接通过文件浏览器访问进程、注册表和网络连接等数据,内存取证 | 虚拟文件系统 | 进程分析 | +1,,https://github.com/ufrisk/MemProcFS,
+AVML,微软开发的Linux内存采集工具，专为Azure虚拟机和云环境的实时内存获取设计，支持压缩输出,Linux | 云取证 | Azure | +1,,https://github.com/microsoft/avml,
+VolWeb,基于Web的Volatility3协作分析平台，2024-2025活跃开发，支持多人在线协作进行内存取证分析,内存取证 | Web平台 | Volatility3 | +2,,https://github.com/k1nd0ne/VolWeb,
+PanelForensics,Linux面板取证一把梭,服务器取证 | 宝塔面板 | 小皮面板 | +2,https://github.com/WXjzcccc/PanelForensics/releases,https://github.com/WXjzcccc/PanelForensics,
+ForensicsTool,支持密钥计算、数据库解密、数据提取、注册表分析、暴力破解、时间戳转换,解析工具,https://github.com/WXjzcccc/ForensicsTool/releases,https://github.com/WXjzcccc/ForensicsTool,
+FinallShell 密码解密GUI工具,FinallShell 密码解密GUI工具,Finalshell | SSH | 解析工具,https://github.com/passer-W/FinalShell-Decoder/releases/tag/V1.0,https://github.com/passer-W/FinalShell-Decoder,
+RevokeMsgPatcher,huiyadanli制作的微信/QQ/TIM防撤回补丁工具，36K+ Star,微信防撤回 | QQ防撤回 | 多开,https://github.com/huiyadanli/RevokeMsgPatcher/releases,https://github.com/huiyadanli/RevokeMsgPatcher,
+HackBrowserData,全平台浏览器数据导出解密工具，支持Chrome/Firefox/Edge/360/QQ等,浏览器取证 | 密码提取 | Cookie,https://github.com/moonD4rk/HackBrowserData/releases,https://github.com/moonD4rk/HackBrowserData,
+BrowserGhost,奇安信A-TEAM出品的浏览器密码抓取工具，.NET 2编写无依赖,浏览器取证 | 密码提取 | 内网横向,https://github.com/QAX-A-Team/BrowserGhost,https://github.com/QAX-A-Team/BrowserGhost,
+MobaXterm密码解密,HyperSine出品的MobaXterm保存密码解密工具,密码解密 | MobaXterm | SSH,https://github.com/HyperSine/how-does-MobaXterm-encrypt-password,https://github.com/HyperSine/how-does-MobaXterm-encrypt-password,
+FatSmallTools,tianhe1986写的Navicat数据库连接密码解密PHP脚本,Navicat | 密码解密 | 数据库取证,https://github.com/tianhe1986/FatSmallTools,https://github.com/tianhe1986/FatSmallTools,
+navicat_password_decrypt,Zhuoyuan1用Python写的Navicat密码解密工具，便于集成到自动化脚本,Navicat | 密码解密 | Python,https://github.com/Zhuoyuan1/navicat_password_decrypt,https://github.com/Zhuoyuan1/navicat_password_decrypt,
+apk_analyzer,APK分析工具,apk解析,https://github.com/WXjzcccc/apk_analyzer/releases,https://github.com/WXjzcccc/apk_analyzer,
+奇安信威胁情报中心,奇安信威胁情报中心,,,,https://ti.qianxin.com/
+微步在线X情报社区,微步在线X情报社区,,,,https://x.threatbook.com/
+腾讯安全 威胁情报中心,腾讯安全 威胁情报中心,,,,https://tix.qq.com/
+国家计算机病毒协同分析平台,基于技术先进的反病毒引擎和恶意代码分析引擎，提供数字文件安全性检测及分析能力，并输出详细的分析结果,沙箱,,,https://virus.cverc.org.cn/
+微步在线云沙箱,微步云沙箱S 一站式在线文件威胁分析平台高效检测20种大类威胁、1000+木马家族、1000+APT组织综合判定准确率高达99.99% 强大的未知威胁发现能力.,沙箱,,,https://s.threatbook.com/
+奇安信情报沙箱,,沙箱,,,https://sandbox.ti.qianxin.com/sandbox/page
+360沙箱云,360安全出品的在线恶意文件分析沙箱，支持PE/APK/文档等多格式动态行为分析,沙箱 | 360 | 动态分析 | +2,,,https://ata.360.net/
+魔盾安全分析,魔盾安全出品的在线恶意软件分析平台，支持静态+动态分析，提供详细行为报告,沙箱 | 恶意软件 | 静态分析 | +2,,,https://www.maldun.com/
+CTF-NetA,专为CTF比赛设计的网络流量分析工具，带GUI界面，支持20+种协议自动分析,流量分析 | CTF | PCAP | +1,https://github.com/Arinue/CTF-NetA/releases,https://github.com/Arinue/CTF-NetA,
+NetworkMiner,开源网络流量取证工具，可从PCAP文件中提取文件、图片、邮件、密码等各类数字证据，支持实时嗅探和离线分析,网络取证 | PCAP | 流量分析 | +1,https://forensics.didctf.com/%E2%80%94,https://forensics.didctf.com/%E2%80%94,https://www.netresec.com/?page=NetworkMiner
+Arkime,原Moloch，大规模全流量抓包索引与搜索系统，支持PB级PCAP存储和快速检索，2024活跃,全流量 | PCAP | 大规模 | +2,,https://github.com/arkime/arkime,https://arkime.com/
+WeChat-Dump-Auto,Laster-dev出品的微信全自动取证工具，一键自动查找数据库密钥导出聊天记录,微信取证 | 数据库解密 | key提取,https://github.com/Laster-dev/WeChat-Dump-Auto/releases,https://github.com/Laster-dev/WeChat-Dump-Auto,
+PyWxDump,xaoyaoo开发的微信数据库解密与聊天记录导出工具，支持PC端微信全版本,微信取证 | 数据库解密 | 聊天记录导出,https://github.com/xaoyaoo/PyWxDump/releases,https://github.com/xaoyaoo/PyWxDump,
+wechatDataBackup,基于Wails+React开发的PC微信聊天记录一键备份工具，界面与微信高度相似,微信取证 | 聊天备份 | 数据导出,https://github.com/git-jiadong/wechatDataBackup/releases,https://github.com/git-jiadong/wechatDataBackup,
+wechat-backup,greycodee用Go写的Android微信聊天记录备份工具，需Root手机,微信取证 | Android | 数据库解密,https://github.com/greycodee/wechat-backup,https://github.com/greycodee/wechat-backup,
+wechat-decrypt,ylytdeng出品的微信数据库一键解密工具，自带MCP服务可喂给AI分析,微信取证 | 数据库解密 | MCP,https://github.com/ylytdeng/wechat-decrypt,https://github.com/ylytdeng/wechat-decrypt,
+wechat_backup-Python,wwxiaoqi写的微信聊天记录Python备份工具，通过模拟操作PC微信客户端自动化,微信取证 | 聊天备份 | Python,https://github.com/wwxiaoqi/wechat_backup,https://github.com/wwxiaoqi/wechat_backup,
+wechat-dump,Android微信聊天记录导出工具，需Root权限+ADB连接，以HTML格式呈现完整聊天记录,微信取证 | Android | HTML导出,https://github.com/ppwwyyxx/wechat-dump,https://github.com/ppwwyyxx/wechat-dump,
+Chrome-Forensic-CVE-2024-0044,基于CVE-2024-0044漏洞实现的Android Chrome浏览器取证工具，无需Root,浏览器取证 | Android | 漏洞利用,,https://github.com/JackTekno/Chrome-Forensic_CVE-2024-0044,
+ForensiFlow,ForensiFlow 是一个基于视觉语言模型（Vision-Language Model）的智能移动端应用自动化取证框架。该项目集成了计算机视觉、自然语言处理和移动设备自动化控制，目标是形成“案件规划 → 任务执行 → 经验复用 / 新任务探索 → 脚本沉淀”的闭环。,智能移动端取证,,https://github.com/ForensIntell/ForensiFlow,
+EnMicroMsg.db-Password-Cracker,chg-hou出品的Android微信数据库密码破解工具，支持CPU/GPU暴力破解,微信取证 | 密码破解 | SQLCipher,https://github.com/chg-hou/EnMicroMsg.db-Password-Cracker,https://github.com/chg-hou/EnMicroMsg.db-Password-Cracker,
+Autopsy,基于Sleuth Kit构建的开源数字取证平台，提供图形化界面，支持文件系统分析、数据恢复、关键词搜索、时间线生成，广泛用于执法和企业调查,数字取证 | 磁盘分析 | 数据恢复,https://forensics.didctf.com/%E2%80%94,https://github.com/sleuthkit/autopsy,https://www.autopsy.com/
+bulk_extractor,高速数字取证扫描工具，不依赖文件系统结构即可从磁盘镜像、文件、目录中提取电子邮件地址、信用卡号、URL、GPS坐标等结构化信息,数据提取 | 磁盘扫描 | 特征提取,https://forensics.didctf.com/%E2%80%94,https://github.com/simsong/bulk_extractor,
+FTK Imager,AccessData出品的免费取证镜像工具，支持创建E01/DD等多种格式的磁盘镜像和内存镜像，可挂载镜像、预览文件、计算哈希,磁盘镜像 | 内存镜像 | E01 | +1,https://forensics.didctf.com/%E2%80%94,https://forensics.didctf.com/%E2%80%94,https://www.exterro.com/ftk-imager
+Arsenal Image Mounter,"Arsenal Recon开发的专业磁盘镜像挂载工具，通过虚拟SCSI适配器将E01/VHD/RAW等镜像挂载为Windows""真实""物理磁盘，支持BitLocker解密和卷影副本",镜像挂载 | 磁盘取证 | 卷影副本 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/ArsenalRecon/Arsenal-Image-Mounter,https://arsenalrecon.com/downloads
+CyberChef,"GCHQ开发的浏览器端""瑞士军刀""，支持400+种操作：编码解码、加密解密、哈希、压缩、格式转换等，数据分析必备",编码解码 | 加密解密 | 数据处理 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/gchq/CyberChef,https://gchq.github.io/CyberChef/
+Binwalk,固件分析利器，搜索二进制镜像中的嵌入文件和代码，支持50+种文件系统和压缩算法自动提取，逆向工程必备,固件分析 | 文件提取 | 逆向工程 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/ReFirmLabs/binwalk,https://forensics.didctf.com/%E2%80%94
+TestDisk & PhotoRec,经典开源数据恢复组合：TestDisk恢复丢失分区/修复文件系统；PhotoRec恢复已删除文件，支持480+文件格式,数据恢复 | 分区修复 | 文件恢复,https://forensics.didctf.com/%E2%80%94,https://github.com/cgsecurity/testdisk,https://www.cgsecurity.org/
+Foremost,基于文件头部、尾部和内部数据结构的数据恢复与文件雕刻工具，最初由美国空军特别调查办公室开发,文件雕刻 | 数据恢复 | 磁盘取证 | +1,,https://github.com/korczis/foremost,http://foremost.sourceforge.net/
+Scalpel,高性能文件雕刻工具，基于Foremost改进，支持多线程和异步I/O，可从磁盘镜像中恢复已删除文件,文件雕刻 | 多线程 | 数据恢复 | +1,,https://github.com/sleuthkit/scalpel,
+ExifTool,最强大的元数据读写工具，支持数百种文件格式的EXIF/IPTC/XMP等元信息提取、编辑与批量处理,元数据 | EXIF | 文件分析 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/exiftool/exiftool,https://exiftool.org/
+Sherloq,Guido Bartoli开发的开源数字图像取证工具集，集成多种分析算法，可检测图像篡改、伪造，提取元数据和文件头信息,图像取证 | 篡改检测 | 元数据 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/GuidoBartoli/sherloq,https://forensics.didctf.com/%E2%80%94
+YARA,VirusTotal出品的恶意软件模式匹配引擎，通过编写文本/二进制规则识别和分类恶意软件家族，威胁情报核心工具,恶意软件检测 | 规则匹配 | 模式识别 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/VirusTotal/yara,https://virustotal.github.io/yara/
+capa,Mandiant(Google)开发的程序能力自动识别工具，通过分析可执行文件识别其具备的恶意能力（通信/持久化/数据窃取等）,恶意软件分析 | 能力检测 | 逆向工程 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/mandiant/capa,https://forensics.didctf.com/%E2%80%94
+CAPEv2,基于Cuckoo重构的开源恶意软件自动化分析沙箱，专注配置提取与Payload解密，2024-2025非常活跃,沙箱 | 恶意软件 | 配置提取 | +2,,https://github.com/kevoreilly/CAPEv2,
+pestudio,免费PE可执行文件静态分析工具，集成VirusTotal检测、导入表分析和可疑指标自动识别，持续更新中,PE分析 | 静态分析 | VirusTotal | +2,,,https://www.winitor.com/
+Noriben,基于Procmon的Python恶意软件行为分析辅助工具，自动记录和过滤系统行为变化,行为分析 | Procmon | 沙箱辅助 | +2,,https://github.com/Rurik/Noriben,
+oletools,Python工具包，分析Microsoft OLE2/Office文档，提取VBA宏代码，检测恶意宏、DDE攻击、XLM宏，文档取证核心工具,Office取证 | 宏分析 | VBA | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/decalage2/oletools,https://forensics.didctf.com/%E2%80%94
+Didier Stevens Suite,PDF/Office恶意文档分析工具集，含pdfid、pdf-parser、oledump等，2024-2025持续更新,PDF分析 | Office | 恶意文档 | +2,,https://github.com/DidierStevens/DidierStevensSuite,
+Plaso,超级时间线生成工具，自动从200+数据源（文件系统、注册表、日志等）提取时间戳，构建统一事件序列，事件重建利器,时间线分析 | 日志分析 | 事件重建 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/log2timeline/plaso,https://forensics.didctf.com/%E2%80%94
+PE-bear,hasherezade开发的跨平台PE文件逆向分析工具，GUI友好，支持反汇编（集成capstone）、签名识别、加壳检测,PE分析 | 逆向工程 | 恶意软件分析 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/hasherezade/pe-bear,https://forensics.didctf.com/%E2%80%94
+Steghide,经典隐写术工具，可将数据隐藏在JPEG/BMP/WAV/AU等图像音频文件中，嵌入数据对一阶统计测试具有抗性,隐写术 | 数据隐藏 | 图像隐写 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/StefanoDeVuono/steghide,https://forensics.didctf.com/%E2%80%94
+SIFT Workstation,SANS出品的一站式开源取证工作站（基于Ubuntu的VM），预装200+取证工具，涵盖磁盘/内存/网络/文件分析全流程,取证工作站 | 综合工具集 | 虚拟机 | +1,https://forensics.didctf.com/%E2%80%94,https://github.com/teamdfir/sift,https://www.sans.org/tools/sift-workstation/
+LovelySparK,流量日志分析工具 基础流量分析功能 AI agent 多协议快速分析,安全工具 | 流量分析 | PCAP | +1,https://lovely.mzy0.com/lovelyspark.exe,,https://auth.mzy0.com/
+Wireshark,全球最流行的开源网络协议分析器，支持实时抓包和离线数据包深度分析，可解析数百种网络协议,网络取证 | 抓包 | 协议分析 | +1,https://www.wireshark.org/download.html,,https://www.wireshark.org/
+Zeek,强大的开源网络安全监控框架（原名Bro），通过深度协议分析生成丰富的网络活动日志用于安全分析和取证,网络监控 | 协议分析 | 日志生成 | +1,,https://github.com/zeek/zeek,https://zeek.org/
+Zui,原Brim，基于Zed数据湖的网络数据分析桌面应用，支持PCAP和Zeek日志的超快速搜索与可视化,流量分析 | PCAP | Zeek | +2,,https://github.com/brimdata/zui,
+RITA,基于Zeek日志的C2信标检测工具，v5版本2024年重大重写，自动识别Beacon通信模式,C2检测 | Beacon | Zeek | +2,,https://github.com/activecm/rita,
+科来网络分析系统,科来软件出品的国产网络流量分析工具，支持协议解析、流量回溯和网络取证，有免费技术交流版,流量分析 | 协议解析 | 网络取证 | +2,,,https://www.colasoft.com.cn/
+CT Stack工具集,CT Stack 安全社区致力于守护安全工具成长，秉持探索与共享的理念，收录更多优质工具。规范安全工具标准，与之共生共赢,综合应用,,,https://stack.chaitin.com/tool/index
+棱角社区工具库,"欢迎访问棱角社区...技术是无罪的,快乐就在思考!",红队命令速查 | 虚拟身份生成 | 反弹shell命令,,,https://forum.ywhack.com/bountytips.php
+Whois查询网,极力推荐，查询速度极快！,whois | 域名,,,https://whoiscx.com/
+MD5解密聚合平台,One-Fox安全团队 MD5 解密聚合平台,MD5 | SHA1 | SHA256 | +1,,,https://md5.one-fox.cn/
+The Sleuth Kit,开源数字取证工具集，提供命令行工具和C库用于分析磁盘镜像和文件系统，支持NTFS/FAT/EXT/HFS等格式,磁盘分析 | 文件系统 | 命令行 | +1,,https://github.com/sleuthkit/sleuthkit,https://www.sleuthkit.org/
+Guymager,基于图形界面的免费取证磁盘镜像工具，支持EWF(E01)和dd格式，具有多线程压缩和哈希计算功能,磁盘镜像 | E01 | GUI | +1,,https://github.com/guymager/guymager,https://guymager.sourceforge.io/
+dc3dd,美国国防部网络犯罪中心开发的dd增强版本，专为取证镜像设计，支持实时哈希校验、分段输出和日志记录,磁盘镜像 | 哈希校验 | 命令行 | +1,https://sourceforge.net/projects/dc3dd/,,https://sourceforge.net/projects/dc3dd/
+Binalyze AIR,2023年崛起的云端DFIR平台，支持远程端点取证采集与自动化分析，提供免费社区版,远程取证 | 云端 | 自动化 | +2,,,https://binalyze.com/
+RegRipper,开源Windows注册表取证分析工具，通过插件机制从注册表hive文件中提取和解析关键取证信息,注册表 | Windows | 插件化 | +1,,https://github.com/keydet89/RegRipper3.0,
+Eric Zimmerman Tools,一套免费的Windows数字取证工具集，包含MFTECmd、PECmd、LECmd等，覆盖注册表、预读取、快捷方式等多种取证工件解析,Windows取证 | MFT | Prefetch | +2,https://ericzimmerman.github.io/,https://github.com/EricZimmerman,https://ericzimmerman.github.io/
+Chainsaw,快速搜索和分析Windows事件日志、注册表及MFT等取证工件的Rust命令行工具，支持Sigma规则,事件日志 | Sigma | 威胁狩猎 | +1,,https://github.com/WithSecureLabs/chainsaw,
+Hayabusa,基于Sigma规则的Windows事件日志快速威胁狩猎与取证时间线生成工具，由大和安全团队开发,事件日志 | Sigma | 时间线 | +1,,https://github.com/Yamato-Security/hayabusa,
+Takajo,大和安全团队用Nim编写的Hayabusa结果分析器，2024-2025活跃开发，生成威胁狩猎报告与统计,Hayabusa | 结果分析 | Nim | +2,,https://github.com/Yamato-Security/takajo,
+RECmd,Eric Zimmerman的注册表命令行批量解析工具，支持自定义BatchMC文件提取关键取证信息,注册表 | 批量解析 | 命令行 | +2,https://ericzimmerman.github.io/,https://github.com/EricZimmerman/RECmd,
+SrumECmd,Windows SRUM数据库解析工具，可提取30天内应用执行、网络使用、能耗等系统资源监控记录,SRUM | 应用执行 | 网络使用 | +2,https://ericzimmerman.github.io/,https://github.com/EricZimmerman/Srum,
+WELA,大和安全团队开发的Windows事件日志分析器，PowerShell编写，专注登录事件时间线分析,事件日志 | 登录分析 | PowerShell | +2,,https://github.com/Yamato-Security/WELA,
+Ghidra,由美国国家安全局(NSA)开发的开源软件逆向工程框架，支持反编译、反汇编和脚本自动化分析,逆向工程 | 反编译 | NSA | +1,,https://github.com/NationalSecurityAgency/ghidra,https://ghidra-sre.org/
+x64dbg,Windows平台开源用户态调试器，支持x86和x64程序的动态调试与分析，插件生态丰富,调试器 | Windows | 动态分析 | +2,https://x64dbg.com/,https://github.com/x64dbg/x64dbg,https://x64dbg.com/
+ImHex,2022年爆火的现代化十六进制编辑器，支持模式语言、数据处理器和可视化，45000+ Star,十六进制 | 模式语言 | 可视化 | +2,,https://github.com/WerWolv/ImHex,https://imhex.werwolv.net/
+MVT,由国际特赦组织开发的移动设备取证验证工具包，用于检测手机是否被Pegasus等间谍软件入侵,移动取证 | 间谍软件检测 | iOS | +1,,https://github.com/mvt-project/mvt,https://mvt.re/
+ALEAPP,Android设备取证解析工具，可从文件系统提取和分析日志、事件、应用数据及Protobuf记录,Android取证 | 日志解析 | 应用数据 | +1,,https://github.com/abrignoni/ALEAPP,
+iLEAPP,iOS设备取证解析工具，可从iOS备份和文件系统中提取并分析日志、plist及应用数据,iOS取证 | 日志解析 | plist | +1,,https://github.com/abrignoni/iLEAPP,
+Frida,跨平台动态插桩工具包，可在运行时注入JavaScript脚本来hook和修改应用程序行为，移动应用逆向必备,动态插桩 | Hook | 移动安全 | +1,,https://github.com/frida/frida,https://frida.re/
+Velociraptor,开源的端点监控与数字取证响应(DFIR)平台，支持大规模端点数据采集、威胁狩猎与实时监控,DFIR | 端点监控 | 威胁狩猎 | +1,,https://github.com/Velocidex/velociraptor,https://docs.velociraptor.app/
+GRR Rapid Response,Google开发的远程实时取证与事件响应框架，支持大规模终端调查与自动化数据采集,事件响应 | Google | 远程取证 | +1,,https://github.com/google/grr,https://grr-doc.readthedocs.io/
+FireKylin,国产应急响应与取证分析工具（火麒麟），支持Windows/Linux系统的自动化安全检查和入侵痕迹排查,应急响应 | 国产工具 | 入侵检测 | +1,,https://github.com/MountCloud/FireKylin,
+CyberTriage,Sleuth Kit作者开发的自动化DFIR分类工具，提供免费Lite版，自动分析端点威胁指标,自动化分诊 | DFIR | 免费版 | +2,,,https://www.cybertriage.com/
+Magnet Response,Magnet Forensics出品的免费端点数据采集工具，一键收集RAM、磁盘关键工件用于快速分诊,免费 | 端点采集 | RAM | +2,,,https://www.magnetforensics.com/resources/magnet-response/
+Wazuh,开源XDR和SIEM平台，2024年持续活跃，支持入侵检测、日志分析、合规审计和取证数据采集,XDR | SIEM | 入侵检测 | +2,,https://github.com/wazuh/wazuh,https://wazuh.com/
+zsteg,用于检测PNG和BMP图片中隐写数据的Ruby命令行工具，支持LSB隐写、zlib压缩数据等多种检测方法,隐写术 | PNG | BMP | +2,,https://github.com/zed-0xff/zsteg,
+Stegsolve,Java编写的图像隐写分析工具，支持逐位平面查看、帧浏览、数据提取和图像合并等隐写检测功能,隐写术 | 位平面 | 图像分析 | +2,,https://github.com/Giotino/stegsolve,
+hashcat,世界最快的GPU密码恢复工具，支持300+哈希算法，利用显卡并行计算加速进行高速密码破解,密码破解 | GPU加速 | 哈希 | +1,,https://github.com/hashcat/hashcat,https://hashcat.net/hashcat/
+John the Ripper,经典开源密码破解工具，支持数百种哈希和加密格式的暴力破解、字典攻击和规则变换,密码破解 | 字典攻击 | 哈希 | +1,,https://github.com/openwall/john,https://www.openwall.com/john/
+Ciphey,AI驱动的自动化解密/解码工具，利用自然语言处理自动识别加密类型并尝试破解，CTF比赛神器,自动解密 | AI | CTF | +1,,https://github.com/Ciphey/Ciphey,https://docs.ciphey.online/
+Loki,基于YARA规则、哈希值和文件名等IOC指标的简易主机端威胁扫描器，快速检测已知恶意软件,IOC扫描 | YARA | 威胁检测 | +1,,https://github.com/Neo23x0/Loki,
+Hindsight,用于解析Google Chrome/Chromium浏览器数据的开源取证工具，支持浏览历史、下载记录、缓存和Cookie分析,Chrome取证 | 浏览器 | 历史记录 | +1,,https://github.com/obsidianforensics/hindsight,https://dfir.blog/hindsight/
+Unfurl,URL与时间戳解码可视化工具，可解析Google/社交媒体等复杂URL中隐藏的时间戳和参数信息,URL解析 | 时间戳 | 可视化 | +2,,https://github.com/obsidianforensics/unfurl,https://dfir.blog/unfurl/
+Thor Lite,Nextron Systems出品的免费IOC/YARA扫描器，Thor APT扫描器精简版，规则库持续更新,IOC扫描 | YARA | APT检测 | +2,,,https://www.nextron-systems.com/thor-lite/
+Tsurugi Linux,专注DFIR/OSINT/恶意软件分析的Linux发行版，日本团队开发，预装数百种取证工具，持续更新,取证发行版 | DFIR | OSINT | +2,,,https://tsurugi-linux.org/
+CAINE,意大利团队开发的计算机取证Linux发行版，CAINE 13.0基于Ubuntu 22.04，提供完整取证环境,取证发行版 | Ubuntu | 意大利 | +2,,,https://www.caine-live.net/
+LogonTracer,JPCERT/CC开发的Windows登录事件可视化分析工具，通过图数据库展示账户登录关系和异常模式,登录分析 | 可视化 | 图数据库 | +2,,https://github.com/JPCERTCC/LogonTracer,
+Sigma CLI,Sigma检测规则官方命令行工具，2022年新架构重写，支持规则验证、转换和管理,Sigma | 检测规则 | CLI | +2,,https://github.com/SigmaHQ/sigma-cli,
+RsaCtfTool,RSA攻击自动化工具，集成20+种RSA已知漏洞攻击方法（Wiener/Boneh-Durfee/Fermat等），CTF密码学必备,RSA | 密码学 | CTF | +2,,https://github.com/RsaCtfTool/RsaCtfTool,
+OpenIR,WgpSec狼组安全团队开源的应急响应工具箱，集成Windows/Linux主机排查、日志分析等功能,应急响应 | 国产 | WgpSec | +2,,https://github.com/wgpsec/OpenIR,
+DPark应急响应工具箱,国产Windows应急响应工具箱，集成进程分析、启动项检查、网络连接排查等功能，GUI界面,应急响应 | Windows | GUI | +2,,https://github.com/crisprss/DPark,
+GScan,国产Linux主机安全检查脚本，自动化检测Rootkit、后门、异常进程、可疑文件等入侵痕迹,Linux | 安全检查 | Rootkit | +2,,https://github.com/grayddq/GScan,
+EHole,棱洞3.0，红队重点攻击系统指纹探测工具，蓝队可用于资产梳理和暴露面排查,指纹探测 | 资产梳理 | 棱洞 | +2,,https://github.com/EdgeSecurityTeam/EHole,
+Hfish蜜罐,国产开源蜜罐平台，支持40+协议仿真，可快速部署用于攻击溯源和威胁感知,蜜罐 | 攻击溯源 | 协议仿真 | +2,,https://github.com/hacklcx/HFish,https://hfish.net/#/
+Tai-e,南京大学开发的Java静态分析框架，支持污点分析/指针分析/数据流分析，可用于恶意代码审计,静态分析 | Java | 污点分析 | +2,,https://github.com/pascal-lab/Tai-e,
+Veinmind,长亭科技开源的容器安全工具集，支持镜像漏洞扫描、恶意文件检测和敏感信息发现,容器安全 | 长亭 | 镜像扫描 | +2,,https://github.com/chaitin/veinmind-tools,
+OpenCTI,开源网络威胁情报平台，支持STIX2标准，可关联IOC/TTPs/威胁行为者，6000+ Star,威胁情报 | STIX2 | IOC | +2,,https://github.com/OpenCTI-Platform/opencti,https://www.opencti.io/
+360威胁情报中心,360安全大脑驱动的威胁情报查询平台，支持IP/域名/文件Hash信誉查询和关联分析,威胁情报 | 360 | IP查询 | +2,,,https://ti.360.net/
+绿盟威胁情报中心,绿盟科技NTI威胁情报中心，提供漏洞情报、IP信誉、域名信誉和恶意样本情报查询,威胁情报 | 绿盟 | 漏洞情报 | +2,,,https://nti.nsfocus.com/
+安恒威胁情报中心,安恒信息恒脑威胁情报平台，提供APT追踪、样本分析、IOC查询等威胁情报服务,威胁情报 | 安恒 | APT | +2,,,https://ti.dbappsecurity.com.cn/
+天际友盟情报查询,天际友盟RedQueen威胁情报平台，聚合多源情报数据，支持IOC批量查询和情报订阅,威胁情报 | 天际友盟 | IOC | +2,,,https://redqueen.tj-un.com/
+Falco,CNCF孵化的云原生运行时安全工具，基于eBPF/内核模块检测容器和K8s异常行为，7000+ Star,容器安全 | Kubernetes | eBPF | +2,,https://github.com/falcosecurity/falco,https://falco.org/
+Prowler,AWS/Azure/GCP云安全审计与取证工具，支持300+检查项，2024年持续活跃，10000+ Star,云安全 | AWS | Azure | +2,,https://github.com/prowler-cloud/prowler,https://prowler.com/
+FOFA,白帽汇出品的网络空间资产搜索引擎，支持全球IPv4/IPv6资产测绘，取证中用于资产关联分析,网络空间 | 资产测绘 | 白帽汇 | +2,,,https://fofa.info/
+Hunter鹰图平台,奇安信出品的网络空间测绘平台，支持资产发现、指纹识别和关联分析，取证溯源利器,网络空间 | 奇安信 | 资产发现 | +2,,,https://hunter.qianxin.com/
+Quake,360出品的网络空间测绘系统，支持服务识别、漏洞关联和资产画像，每日更新全球资产数据,网络空间 | 360 | 服务识别 | +2,,,https://quake.360.net/
+ZoomEye钟馗之眼,知道创宇出品的网络空间搜索引擎，支持设备指纹、Web组件和工控设备搜索,网络空间 | 知道创宇 | 设备搜索 | +2,,,https://www.zoomeye.org/
+Seebug漏洞平台,知道创宇出品的漏洞信息平台，收录海量PoC/Exp，支持漏洞搜索和订阅预警,漏洞 | 知道创宇 | PoC | +2,,,https://www.seebug.org/
+Passware Kit,专业密码恢复与解密工具，支持300+文件格式密码破解，取证领域常用的加密文件处理工具,密码恢复 | 加密破解 | 取证 | +2,,,https://www.passware.com/
+安全星图平台,360出品的安全可视化分析平台，支持恶意样本家族关联、攻击链路可视化展示,可视化 | 360 | 关联分析 | +2,,,https://ti.360.net/graph
+IP138,国内老牌IP/域名查询平台，支持IP归属地、域名Whois、备案信息查询，取证溯源常用,IP查询 | 域名 | Whois | +2,,,https://www.ip138.com/
+站长工具,国内综合站长工具平台，提供Whois/DNS/Ping/端口扫描等在线查询，取证信息收集常用,在线工具 | Whois | DNS | +2,,,https://tool.chinaz.com/
+Start Your Linux,Linux学习网站,linux,,,https://syl.imxbt.cn/

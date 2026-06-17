@@ -39,6 +39,21 @@
 
 详细贡献说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
+## Research Basis
+
+为后续虚拟机中的取证工具增删、升级和分类调整建立可追溯依据，仓库已补充一份独立的调研资料：
+
+- [research/forensics-tool-survey](C:/Users/77359/Documents/GZCTF/forensic-suite-toolkit/research/forensics-tool-survey/README.md)
+- [research/forensics-tool-survey](research/forensics-tool-survey/README.md)
+
+其中包含：
+
+- 本轮分析使用的网站来源
+- DIDCTF 原始快照数据
+- 清洗后的 CSV / JSON 结果
+- 采集与分析脚本
+- 可直接用于下一阶段工具更新的总结
+
 ## 许可证与来源说明
 
 本仓库从上游项目 fork 而来。上游仓库当前未声明明确开源许可证，因此本项目在再分发、二次开发和合并第三方工具时会尽量保留来源信息，并优先收录许可证清晰、允许再分发或可通过官方渠道安装的工具。更多说明见 [NOTICE.md](NOTICE.md)。

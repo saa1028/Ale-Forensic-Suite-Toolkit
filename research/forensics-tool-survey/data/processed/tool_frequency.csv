@@ -1,0 +1,51 @@
+﻿tool,count
+Docker,662
+MySQL,644
+火眼证据分析,552
+file,306
+grep,180
+Kubernetes,137
+hashcat,116
+盘古石,96
+Redis,93
+John the Ripper,92
+FTK Imager,88
+美亚取证,85
+find,68
+VMware,65
+IDA,57
+Volatility,56
+X-Ways Forensics,46
+ADB,40
+010 Editor,40
+JADX,40
+CyberChef,38
+strings,37
+Wireshark,35
+qemu,34
+取证大师,32
+弘连,26
+sqlite3,21
+7-Zip,19
+雷电 APP 智能分析,14
+SQLite Browser,14
+binwalk,12
+HashMyFiles,12
+火眼仿真取证,11
+Autopsy,9
+R-Studio,8
+YARA,6
+VirtualBox,6
+MemProcFS,4
+foremost,4
+StegSolve,4
+xxd,4
+Zeek,3
+Ghidra,3
+tshark,3
+ExifTool,2
+Audacity,2
+NetworkMiner,1
+scalpel,1
+zsteg,1
+apktool,1

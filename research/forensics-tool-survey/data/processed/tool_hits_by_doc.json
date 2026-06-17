@@ -1,0 +1,1312 @@
+[
+  {
+    "site": "didctf",
+    "file": "forensics-wp-corpus\\text\\didctf\\wp.txt",
+    "tools": {
+      "盘古石": 22,
+      "美亚取证": 6
+    }
+  },
+  {
+    "site": "didctf",
+    "file": "forensics-wp-corpus\\text\\didctf\\工具合集.txt",
+    "tools": {
+      "Volatility": 10,
+      "YARA": 6,
+      "Zeek": 3,
+      "FTK Imager": 2,
+      "MemProcFS": 2,
+      "ExifTool": 2,
+      "John the Ripper": 2,
+      "Autopsy": 1,
+      "Wireshark": 1,
+      "NetworkMiner": 1,
+      "binwalk": 1,
+      "foremost": 1,
+      "scalpel": 1,
+      "CyberChef": 1,
+      "StegSolve": 1,
+      "zsteg": 1,
+      "Kubernetes": 1,
+      "hashcat": 1,
+      "Ghidra": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\003_2026盘古石杯线下计算机全解_cf3da1a7-cd7d-4b3b-b60b-0698378c1136.txt",
+    "tools": {
+      "火眼证据分析": 8,
+      "hashcat": 6,
+      "Volatility": 4,
+      "file": 4,
+      "盘古石": 2
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\004_2026盘古石杯初赛WP_f0370423-f176-464f-acbf-4473afa11e9a.txt",
+    "tools": {
+      "盘古石": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\006_2026盘古石杯初赛wp_fcca0da9-c84c-4d8e-9d16-511a26474b34.txt",
+    "tools": {
+      "盘古石": 3,
+      "火眼证据分析": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\007_2026盘古石pgs初赛WP（无物联网）_095d40ab-913c-43e6-88e7-dbf812a4a24a.txt",
+    "tools": {
+      "盘古石": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\008_2025平航杯_bab8bcc3-5fb9-49e7-8c61-44d5cef7d222.txt",
+    "tools": {
+      "file": 12,
+      "MySQL": 8,
+      "grep": 5,
+      "find": 4,
+      "FTK Imager": 3,
+      "VMware": 3,
+      "Wireshark": 1,
+      "tshark": 1,
+      "strings": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\009_2026平航杯_a1b9784a-85dc-437d-a054-803b7c9cbed7.txt",
+    "tools": {
+      "Redis": 26,
+      "file": 14,
+      "grep": 6,
+      "hashcat": 3,
+      "find": 2,
+      "sqlite3": 2,
+      "FTK Imager": 1,
+      "CyberChef": 1,
+      "火眼证据分析": 1,
+      "VirtualBox": 1,
+      "qemu": 1,
+      "7-Zip": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\010_2025FIC决赛_faad9d8e-3814-416c-859c-93bf4029b3dd.txt",
+    "tools": {
+      "file": 5,
+      "MySQL": 2,
+      "Docker": 2,
+      "火眼证据分析": 1,
+      "盘古石": 1,
+      "qemu": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\011_2025fic初赛复盘_f5f9760c-d0d7-4756-830a-e5570d10ac46.txt",
+    "tools": {
+      "火眼证据分析": 10,
+      "盘古石": 2
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\012_2026FIC初赛_e79865cf-2c02-4231-9b82-b859154dfc19.txt",
+    "tools": {
+      "火眼证据分析": 9,
+      "Docker": 6,
+      "file": 4,
+      "grep": 3,
+      "MySQL": 2,
+      "strings": 1,
+      "find": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\013_2024平航杯部分复现_e629a6ed-f93d-4ef8-a044-7dfc43ab2b8e.txt",
+    "tools": {
+      "火眼证据分析": 4
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\014_2025数证杯初赛参考解题思路（详细版）_dc1bf1d0-2b47-4695-b843-9bcbb704e3c8.txt",
+    "tools": {
+      "Kubernetes": 13,
+      "Volatility": 2,
+      "grep": 2,
+      "MySQL": 2,
+      "Docker": 2,
+      "file": 1,
+      "Redis": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\015_2025第六届警铮杯_cc09fc49-5378-4925-bc46-2cd21a90c5e5.txt",
+    "tools": {
+      "火眼证据分析": 6,
+      "MySQL": 2,
+      "美亚取证": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\016_第四届_长安杯电子数据取证竞赛_题解_c8eafaa3-09aa-4ddf-82ef-3ae257f00590.txt",
+    "tools": {
+      "MySQL": 30,
+      "火眼证据分析": 24,
+      "Docker": 20,
+      "find": 2,
+      "grep": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\017_2021长安杯wp_c85614c4-819e-4400-92c9-1cc06213e0f9.txt",
+    "tools": {
+      "火眼证据分析": 6
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\019_2024数证杯初赛_c4f800ac-9915-48de-902d-641d6ac0dc75.txt",
+    "tools": {
+      "Docker": 20,
+      "MySQL": 18,
+      "火眼证据分析": 12,
+      "file": 5,
+      "FTK Imager": 2,
+      "find": 1,
+      "R-Studio": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\020_第二届_盘古石杯电子取证竞赛_决赛_题解_c3fd2c88-e6ad-47f6-a87c-15b5154d18f5.txt",
+    "tools": {
+      "Docker": 24,
+      "hashcat": 6,
+      "FTK Imager": 5,
+      "file": 5,
+      "盘古石": 4,
+      "ADB": 4,
+      "火眼证据分析": 3,
+      "IDA": 3,
+      "美亚取证": 2,
+      "Redis": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\021_第二届_龙信杯电子数据取证大赛_题解_c028e3f7-2d7e-4fef-9a8e-7926a3161888.txt",
+    "tools": {
+      "Docker": 16,
+      "file": 13,
+      "hashcat": 12,
+      "ADB": 8,
+      "FTK Imager": 4,
+      "Wireshark": 2,
+      "CyberChef": 2,
+      "火眼证据分析": 2,
+      "HashMyFiles": 2,
+      "IDA": 2,
+      "010 Editor": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\023_2025数证杯初赛_a043a739-d16a-42c6-bd4f-ae72f9d77598.txt",
+    "tools": {
+      "Kubernetes": 28,
+      "MySQL": 14,
+      "Docker": 10,
+      "火眼证据分析": 9,
+      "file": 3,
+      "grep": 2,
+      "美亚取证": 1,
+      "盘古石": 1,
+      "Redis": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\024_2024数证杯决赛个人_9e13b870-cdf1-4ed1-8df6-00db7a07eb30.txt",
+    "tools": {
+      "火眼证据分析": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\025_DIDCTF_应急响应_流量+日志分析+数据恢复部分_980ae054-167e-4a78-b4e4-532c5805b122.txt",
+    "tools": {
+      "strings": 3
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\026_2024数证杯决赛团体_967128a3-efb2-49f5-a011-778a0c84422c.txt",
+    "tools": {
+      "strings": 1,
+      "find": 1,
+      "取证大师": 1,
+      "sqlite3": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\027_第四届_盘古石杯电子取证竞赛_初赛_题解_900d1f60-eb53-4769-b3c3-767b7cc5cec8.txt",
+    "tools": {
+      "file": 23,
+      "火眼证据分析": 23,
+      "MySQL": 12,
+      "hashcat": 9,
+      "strings": 8,
+      "010 Editor": 8,
+      "FTK Imager": 6,
+      "JADX": 4,
+      "grep": 3,
+      "弘连": 2,
+      "盘古石": 2,
+      "雷电 APP 智能分析": 2,
+      "sqlite3": 2,
+      "VMware": 2,
+      "qemu": 2,
+      "binwalk": 1,
+      "火眼仿真取证": 1,
+      "7-Zip": 1,
+      "IDA": 1,
+      "Ghidra": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\028_2025平航杯_8d44894a-6f1b-4f1d-9c22-f1f4c4e7ccc8.txt",
+    "tools": {
+      "file": 3
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\030_2024FIC线上赛_847a17d1-2630-45c0-8262-f5dc90922ee2.txt",
+    "tools": {
+      "sqlite3": 2,
+      "find": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\031_2025盘古石晋级赛_838e31a8-ada2-45e9-906f-7bd9497b5cd6.txt",
+    "tools": {
+      "盘古石": 7,
+      "火眼证据分析": 4,
+      "strings": 1,
+      "file": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\032_2024数证杯初赛_7787ad50-1ea7-4c70-8f8a-3ade029c7567.txt",
+    "tools": {
+      "file": 6,
+      "find": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\033_2025第二届“数证杯”初赛完整题解_705531b3-34f6-4691-91d8-b6d73673a522.txt",
+    "tools": {
+      "Docker": 6,
+      "grep": 4,
+      "MySQL": 4,
+      "Kubernetes": 2,
+      "SQLite Browser": 1,
+      "Redis": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\034_2023盘古石决赛_6e803cdb-2b37-4faf-ad4e-b7cf6d540275.txt",
+    "tools": {
+      "John the Ripper": 6,
+      "Redis": 4,
+      "盘古石": 2,
+      "Wireshark": 1,
+      "binwalk": 1,
+      "取证大师": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\035_文件结构和数据分析专项_6c4d8e75-6265-401c-bb9b-33450edd2a75.txt",
+    "tools": {
+      "file": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\036_2025第三届“陇剑杯”网络安全大赛初赛-夺旗闯关赛wp_66222e7b-b818-4e42-9dda-09c2b5f1ea09.txt",
+    "tools": {
+      "file": 8
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\037_2025运维初赛_64ded038-d810-4f67-94ad-bcbd967aadb6.txt",
+    "tools": {
+      "火眼证据分析": 7,
+      "find": 1,
+      "file": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\038_2025数证杯初赛_4d0b385e-1b44-4e4c-acde-1250c7af0fe9.txt",
+    "tools": {
+      "MySQL": 2,
+      "Redis": 1,
+      "Kubernetes": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\039_第三届_龙信杯电子数据取证大赛_题解_4c963f8f-05ff-4497-b070-2690a9a63a07.txt",
+    "tools": {
+      "Docker": 22,
+      "火眼证据分析": 17,
+      "MySQL": 10,
+      "file": 6,
+      "CyberChef": 6,
+      "Wireshark": 3,
+      "grep": 3,
+      "FTK Imager": 2,
+      "010 Editor": 2,
+      "binwalk": 1,
+      "find": 1,
+      "美亚取证": 1,
+      "弘连": 1,
+      "VMware": 1,
+      "7-Zip": 1,
+      "hashcat": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\040_第二届_盘古石杯电子取证竞赛_初赛_题解_3d05b85f-f0c8-4d2b-8867-85be9a9f4cc2.txt",
+    "tools": {
+      "file": 14,
+      "Docker": 8,
+      "火眼证据分析": 6,
+      "MySQL": 6,
+      "盘古石": 4,
+      "JADX": 4,
+      "X-Ways Forensics": 1,
+      "Volatility": 1,
+      "find": 1,
+      "010 Editor": 1,
+      "火眼仿真取证": 1,
+      "弘连": 1,
+      "雷电 APP 智能分析": 1,
+      "SQLite Browser": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\041_首届_盘古石杯电子取证竞赛_初赛_题解_31710d5b-b5e7-4bae-9f4f-49c920295918.txt",
+    "tools": {
+      "MySQL": 8,
+      "火眼证据分析": 4,
+      "VMware": 4,
+      "sqlite3": 3,
+      "Kubernetes": 3,
+      "Volatility": 2,
+      "盘古石": 2,
+      "John the Ripper": 2,
+      "hashcat": 2
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\042_2025美亚杯-资格赛_289093e4-8f31-4ade-84f1-5845abbf174e.txt",
+    "tools": {
+      "火眼证据分析": 17,
+      "美亚取证": 8,
+      "file": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\043_20240204美亚春苗集训营基础班考核实操题参考wp_18c4b479-a5ad-4940-95b9-07eb06f582cc.txt",
+    "tools": {
+      "美亚取证": 2,
+      "取证大师": 1,
+      "火眼证据分析": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\044_2024FIC决赛_1720ae4d-f09f-4d09-94d4-c94ce235d8bf.txt",
+    "tools": {
+      "Docker": 32,
+      "火眼证据分析": 14
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\045_第三届_平航杯电子数据取证竞赛_题解_146db051-08ca-4037-8d60-c59844827f36.txt",
+    "tools": {
+      "Volatility": 8,
+      "file": 6,
+      "Redis": 6,
+      "IDA": 6,
+      "JADX": 4,
+      "火眼证据分析": 3,
+      "7-Zip": 2,
+      "hashcat": 2,
+      "grep": 1,
+      "find": 1,
+      "CyberChef": 1,
+      "VirtualBox": 1,
+      "qemu": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\046_2025平航杯初赛_11454c70-3e9e-4a71-82ea-fe8eb191a39f.txt",
+    "tools": {
+      "file": 5,
+      "火眼证据分析": 4,
+      "tshark": 2,
+      "雷电 APP 智能分析": 2,
+      "strings": 1,
+      "find": 1
+    }
+  },
+  {
+    "site": "didctf_external",
+    "file": "forensics-wp-corpus\\text\\didctf_external\\048_第十一届_美亚杯中国电子数据取证大赛_团队赛_题解_03d6634f-57c9-41e0-b0f0-4db7e24a639a.txt",
+    "tools": {
+      "火眼证据分析": 39,
+      "MySQL": 12,
+      "file": 8,
+      "Docker": 8,
+      "美亚取证": 6,
+      "CyberChef": 4,
+      "FTK Imager": 3,
+      "Wireshark": 3,
+      "010 Editor": 2,
+      "取证大师": 2,
+      "IDA": 2,
+      "X-Ways Forensics": 1,
+      "binwalk": 1,
+      "find": 1,
+      "R-Studio": 1,
+      "火眼仿真取证": 1,
+      "SQLite Browser": 1,
+      "VMware": 1,
+      "HashMyFiles": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups.txt",
+    "tools": {
+      "美亚取证": 6,
+      "盘古石": 4
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ChanganCup2019.txt",
+    "tools": {
+      "Docker": 28,
+      "Redis": 5,
+      "取证大师": 4,
+      "MySQL": 4,
+      "火眼证据分析": 2,
+      "sqlite3": 2,
+      "John the Ripper": 2,
+      "hashcat": 2,
+      "Wireshark": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ChanganCup2020.txt",
+    "tools": {
+      "Docker": 20,
+      "火眼证据分析": 2,
+      "VMware": 2,
+      "grep": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ChanganCup2021.txt",
+    "tools": {
+      "MySQL": 8,
+      "VMware": 4,
+      "取证大师": 3,
+      "find": 1,
+      "R-Studio": 1,
+      "美亚取证": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ChanganCup2022.txt",
+    "tools": {
+      "MySQL": 30,
+      "火眼证据分析": 24,
+      "Docker": 20,
+      "find": 2,
+      "grep": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_Edu2025.txt",
+    "tools": {
+      "Docker": 8,
+      "FTK Imager": 4,
+      "火眼证据分析": 2,
+      "美亚取证": 2,
+      "John the Ripper": 2,
+      "file": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_FIC2025Final.txt",
+    "tools": {
+      "Docker": 34,
+      "qemu": 16,
+      "火眼证据分析": 13,
+      "MySQL": 12,
+      "ADB": 10,
+      "strings": 8,
+      "file": 6,
+      "VMware": 5,
+      "hashcat": 4,
+      "Wireshark": 3,
+      "CyberChef": 3,
+      "IDA": 3,
+      "X-Ways Forensics": 2,
+      "foremost": 2,
+      "JADX": 2,
+      "binwalk": 1,
+      "grep": 1,
+      "find": 1,
+      "010 Editor": 1,
+      "Audacity": 1,
+      "火眼仿真取证": 1,
+      "弘连": 1,
+      "盘古石": 1,
+      "雷电 APP 智能分析": 1,
+      "SQLite Browser": 1,
+      "sqlite3": 1,
+      "7-Zip": 1,
+      "HashMyFiles": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_FIC2025Preliminary.txt",
+    "tools": {
+      "火眼证据分析": 9,
+      "file": 2,
+      "SQLite Browser": 2,
+      "VMware": 2,
+      "ADB": 2,
+      "010 Editor": 1,
+      "Audacity": 1,
+      "火眼仿真取证": 1,
+      "HashMyFiles": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_FIC2026Preliminary.txt",
+    "tools": {
+      "Docker": 26,
+      "file": 18,
+      "火眼证据分析": 14,
+      "MySQL": 10,
+      "IDA": 4,
+      "JADX": 4,
+      "grep": 3,
+      "弘连": 3,
+      "FTK Imager": 2,
+      "find": 2,
+      "雷电 APP 智能分析": 2,
+      "X-Ways Forensics": 1,
+      "火眼仿真取证": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_Longxin2024.txt",
+    "tools": {
+      "Docker": 16,
+      "file": 13,
+      "hashcat": 12,
+      "ADB": 8,
+      "FTK Imager": 4,
+      "Wireshark": 2,
+      "CyberChef": 2,
+      "火眼证据分析": 2,
+      "HashMyFiles": 2,
+      "IDA": 2,
+      "010 Editor": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_Longxin2025.txt",
+    "tools": {
+      "Docker": 22,
+      "火眼证据分析": 17,
+      "MySQL": 10,
+      "file": 6,
+      "CyberChef": 6,
+      "Wireshark": 3,
+      "grep": 3,
+      "FTK Imager": 2,
+      "010 Editor": 2,
+      "binwalk": 1,
+      "find": 1,
+      "美亚取证": 1,
+      "弘连": 1,
+      "VMware": 1,
+      "7-Zip": 1,
+      "hashcat": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2020Group.txt",
+    "tools": {
+      "火眼证据分析": 12,
+      "取证大师": 6,
+      "美亚取证": 2,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2021Group.txt",
+    "tools": {
+      "file": 6,
+      "Volatility": 5,
+      "取证大师": 3,
+      "火眼证据分析": 3,
+      "VMware": 3,
+      "FTK Imager": 2,
+      "X-Ways Forensics": 2,
+      "美亚取证": 2,
+      "Docker": 2,
+      "7-Zip": 2,
+      "strings": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2021Individual.txt",
+    "tools": {
+      "Docker": 10,
+      "取证大师": 4,
+      "美亚取证": 2
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2022Group.txt",
+    "tools": {
+      "火眼证据分析": 12,
+      "X-Ways Forensics": 11,
+      "file": 6,
+      "Docker": 6,
+      "grep": 5,
+      "取证大师": 5,
+      "hashcat": 5,
+      "FTK Imager": 2,
+      "Wireshark": 2,
+      "美亚取证": 2,
+      "MySQL": 2,
+      "John the Ripper": 2,
+      "R-Studio": 1,
+      "qemu": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2022Individual.txt",
+    "tools": {
+      "find": 2,
+      "美亚取证": 2,
+      "sqlite3": 2,
+      "file": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2023Group.txt",
+    "tools": {
+      "火眼证据分析": 11,
+      "MySQL": 10,
+      "X-Ways Forensics": 8,
+      "FTK Imager": 4,
+      "VMware": 4,
+      "John the Ripper": 4,
+      "file": 3,
+      "美亚取证": 3,
+      "7-Zip": 3,
+      "R-Studio": 2,
+      "弘连": 2,
+      "hashcat": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2023Individual.txt",
+    "tools": {
+      "Docker": 8,
+      "grep": 4,
+      "file": 4,
+      "火眼证据分析": 4,
+      "美亚取证": 2,
+      "弘连": 2,
+      "X-Ways Forensics": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2024Group.txt",
+    "tools": {
+      "John the Ripper": 64,
+      "火眼证据分析": 11,
+      "美亚取证": 6,
+      "Autopsy": 3,
+      "FTK Imager": 2,
+      "Wireshark": 2,
+      "SQLite Browser": 2,
+      "VMware": 2,
+      "IDA": 2,
+      "X-Ways Forensics": 1,
+      "Volatility": 1,
+      "find": 1,
+      "file": 1,
+      "010 Editor": 1,
+      "火眼仿真取证": 1,
+      "弘连": 1,
+      "雷电 APP 智能分析": 1,
+      "apktool": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2024Individual.txt",
+    "tools": {
+      "火眼证据分析": 18,
+      "美亚取证": 8,
+      "Autopsy": 5,
+      "Volatility": 5,
+      "弘连": 3,
+      "010 Editor": 2,
+      "IDA": 2,
+      "X-Ways Forensics": 1,
+      "CyberChef": 1,
+      "SQLite Browser": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2025Group.txt",
+    "tools": {
+      "火眼证据分析": 39,
+      "MySQL": 12,
+      "file": 8,
+      "Docker": 8,
+      "美亚取证": 6,
+      "CyberChef": 4,
+      "FTK Imager": 3,
+      "Wireshark": 3,
+      "010 Editor": 2,
+      "取证大师": 2,
+      "IDA": 2,
+      "X-Ways Forensics": 1,
+      "binwalk": 1,
+      "find": 1,
+      "R-Studio": 1,
+      "火眼仿真取证": 1,
+      "SQLite Browser": 1,
+      "VMware": 1,
+      "HashMyFiles": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_MeiyaCup2025Individual.txt",
+    "tools": {
+      "火眼证据分析": 17,
+      "FTK Imager": 8,
+      "美亚取证": 8,
+      "file": 3,
+      "X-Ways Forensics": 2,
+      "CyberChef": 2,
+      "弘连": 2,
+      "VMware": 2,
+      "010 Editor": 1,
+      "SQLite Browser": 1,
+      "hashcat": 1,
+      "HashMyFiles": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_PGS2023Preliminary.txt",
+    "tools": {
+      "MySQL": 8,
+      "火眼证据分析": 4,
+      "VMware": 4,
+      "sqlite3": 3,
+      "Kubernetes": 3,
+      "Volatility": 2,
+      "盘古石": 2,
+      "John the Ripper": 2,
+      "hashcat": 2
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_PGS2024Final.txt",
+    "tools": {
+      "Docker": 24,
+      "hashcat": 6,
+      "FTK Imager": 5,
+      "file": 5,
+      "盘古石": 4,
+      "ADB": 4,
+      "火眼证据分析": 3,
+      "IDA": 3,
+      "美亚取证": 2,
+      "Redis": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_PGS2024Preliminary.txt",
+    "tools": {
+      "file": 14,
+      "Docker": 8,
+      "火眼证据分析": 6,
+      "MySQL": 6,
+      "盘古石": 4,
+      "JADX": 4,
+      "X-Ways Forensics": 1,
+      "Volatility": 1,
+      "find": 1,
+      "010 Editor": 1,
+      "火眼仿真取证": 1,
+      "弘连": 1,
+      "雷电 APP 智能分析": 1,
+      "SQLite Browser": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_PGS2025Final.txt",
+    "tools": {
+      "火眼证据分析": 12,
+      "盘古石": 6,
+      "Docker": 6,
+      "VMware": 5,
+      "FTK Imager": 4,
+      "StegSolve": 3,
+      "X-Ways Forensics": 2,
+      "010 Editor": 2,
+      "JADX": 2,
+      "ADB": 2,
+      "CyberChef": 1,
+      "火眼仿真取证": 1,
+      "弘连": 1,
+      "SQLite Browser": 1,
+      "7-Zip": 1,
+      "HashMyFiles": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_PGS2025Preliminary.txt",
+    "tools": {
+      "Docker": 20,
+      "火眼证据分析": 11,
+      "MySQL": 10,
+      "X-Ways Forensics": 9,
+      "盘古石": 5,
+      "VMware": 5,
+      "strings": 3,
+      "hashcat": 2,
+      "IDA": 2,
+      "foremost": 1,
+      "CyberChef": 1,
+      "7-Zip": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_PGS2026Preliminary.txt",
+    "tools": {
+      "file": 23,
+      "火眼证据分析": 23,
+      "MySQL": 12,
+      "hashcat": 9,
+      "strings": 8,
+      "010 Editor": 8,
+      "FTK Imager": 6,
+      "JADX": 4,
+      "grep": 3,
+      "弘连": 2,
+      "盘古石": 2,
+      "雷电 APP 智能分析": 2,
+      "sqlite3": 2,
+      "VMware": 2,
+      "qemu": 2,
+      "binwalk": 1,
+      "火眼仿真取证": 1,
+      "7-Zip": 1,
+      "IDA": 1,
+      "Ghidra": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_Pinghang2025.txt",
+    "tools": {
+      "MySQL": 4,
+      "IDA": 4,
+      "binwalk": 3,
+      "Wireshark": 2,
+      "file": 2,
+      "火眼证据分析": 2,
+      "Docker": 2,
+      "find": 1,
+      "CyberChef": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_Pinghang2026.txt",
+    "tools": {
+      "Volatility": 8,
+      "file": 6,
+      "Redis": 6,
+      "IDA": 6,
+      "JADX": 4,
+      "火眼证据分析": 3,
+      "7-Zip": 2,
+      "hashcat": 2,
+      "grep": 1,
+      "find": 1,
+      "CyberChef": 1,
+      "VirtualBox": 1,
+      "qemu": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_Shuzheng2025Preliminary.txt",
+    "tools": {
+      "MySQL": 46,
+      "Docker": 30,
+      "Kubernetes": 23,
+      "火眼证据分析": 9,
+      "JADX": 8,
+      "Wireshark": 6,
+      "Redis": 6,
+      "file": 5,
+      "Volatility": 3,
+      "盘古石": 3,
+      "010 Editor": 2,
+      "IDA": 2,
+      "CyberChef": 1,
+      "美亚取证": 1,
+      "弘连": 1,
+      "VMware": 1,
+      "7-Zip": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_XieZhi2025.txt",
+    "tools": {
+      "Kubernetes": 17,
+      "FTK Imager": 4,
+      "火眼证据分析": 4,
+      "VMware": 3,
+      "MySQL": 2,
+      "雷电 APP 智能分析": 1,
+      "IDA": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ZKSS2021.txt",
+    "tools": {
+      "find": 1,
+      "火眼证据分析": 1,
+      "VirtualBox": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ZKSS2023.txt",
+    "tools": {
+      "火眼证据分析": 16,
+      "file": 7,
+      "Volatility": 4,
+      "hashcat": 4,
+      "find": 3,
+      "FTK Imager": 2,
+      "010 Editor": 2,
+      "美亚取证": 2,
+      "弘连": 2,
+      "HashMyFiles": 2,
+      "ADB": 2,
+      "盘古石": 1,
+      "雷电 APP 智能分析": 1,
+      "SQLite Browser": 1,
+      "7-Zip": 1
+    }
+  },
+  {
+    "site": "xidian",
+    "file": "forensics-wp-corpus\\text\\xidian\\writeups_ZKSS2024.txt",
+    "tools": {
+      "火眼证据分析": 10,
+      "hashcat": 7,
+      "MemProcFS": 2,
+      "VMware": 2,
+      "file": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2021-nian-hei-long-jiang-xing-zhen-bi-wu-fu-wu-qi-ti-fen-xi.txt",
+    "tools": {
+      "MySQL": 6,
+      "grep": 5,
+      "find": 2,
+      "hashcat": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2022-nian-an-hui-wang-an-bi-wu-ti-k8s-fu-wu-qi-ji-qun-fen-xi.txt",
+    "tools": {
+      "MySQL": 28,
+      "Kubernetes": 21,
+      "grep": 10,
+      "Docker": 4,
+      "find": 2
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2022-nian-fu-jian-xing-zhen-bi-wu-linux-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "Docker": 42,
+      "grep": 12,
+      "MySQL": 12,
+      "Redis": 5,
+      "find": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2022-nian-guang-xi-xing-zhen-bi-wu-fu-wu-qi-ti-fen-xi.txt",
+    "tools": {
+      "grep": 6,
+      "MySQL": 4,
+      "find": 1,
+      "Redis": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2022杭州网安比武题服务器集群分析.txt",
+    "tools": {
+      "Docker": 44,
+      "MySQL": 16,
+      "grep": 9,
+      "find": 3,
+      "file": 2,
+      "strings": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2023-nian-gui-zhou-xing-zhen-bi-wu-fu-wu-qi-ti-fen-xi.txt",
+    "tools": {
+      "grep": 10,
+      "find": 5,
+      "file": 4
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2023-nian-hu-nan-wang-an-bi-wu-ti-fu-wu-qi-ji-qun-fen-xi.txt",
+    "tools": {
+      "MySQL": 48,
+      "Redis": 11,
+      "grep": 10,
+      "file": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2023-nian-quan-guo-xing-zhen-bi-wu-linux-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "MySQL": 28,
+      "grep": 10,
+      "find": 3,
+      "R-Studio": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2023-nian-shang-hai-xing-zhen-bi-wu-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "Docker": 18,
+      "MySQL": 10,
+      "Redis": 3,
+      "grep": 2
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2023-pan-gu-shi-bei-jue-sai-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "Redis": 8,
+      "MySQL": 6,
+      "John the Ripper": 6,
+      "grep": 4,
+      "盘古石": 4,
+      "find": 3,
+      "VMware": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2025-nian-shu-zheng-bei-chu-sai-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "Kubernetes": 25,
+      "Docker": 16,
+      "MySQL": 12,
+      "grep": 6,
+      "FTK Imager": 4,
+      "Redis": 2,
+      "X-Ways Forensics": 1,
+      "VMware": 1,
+      "VirtualBox": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2025-nian-xing-shi-ji-neng-da-sai-ge-ren-sai-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "Docker": 30,
+      "MySQL": 12,
+      "grep": 10,
+      "xxd": 3,
+      "find": 2,
+      "file": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2025-shu-zheng-bao-jue-sai-ge-ren-sai-fu-wu-qi-jie-xi.txt",
+    "tools": {
+      "hashcat": 6,
+      "grep": 4,
+      "file": 3,
+      "FTK Imager": 2,
+      "find": 2,
+      "X-Ways Forensics": 1,
+      "sqlite3": 1,
+      "VMware": 1,
+      "VirtualBox": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2025-shu-zheng-bao-jue-sai-tuan-ti-sai-fu-wu-qi-jie-xi.txt",
+    "tools": {
+      "Docker": 34,
+      "MySQL": 28,
+      "grep": 4,
+      "Redis": 4,
+      "find": 3,
+      "hashcat": 2
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2026-ju-he-xie-zhi-bao---fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "MySQL": 40,
+      "grep": 13,
+      "hashcat": 7,
+      "find": 3,
+      "file": 3
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2026-pan-gu-shi-yu-sai-pve-ji-qun-fu-wu-qi-ti-jie-xi.txt",
+    "tools": {
+      "MySQL": 72,
+      "grep": 11,
+      "qemu": 9,
+      "盘古石": 3,
+      "VMware": 3,
+      "find": 1,
+      "file": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_2026-pan-gu-shi-yu-sai-yi-dong-jie-zhi-qu-zheng-ti-jie-xi.txt",
+    "tools": {
+      "盘古石": 3,
+      "file": 1,
+      "xxd": 1
+    }
+  },
+  {
+    "site": "yagami",
+    "file": "forensics-wp-corpus\\text\\yagami\\archives_di-si-jie-wang-jian-bei-dian-zi-qu-zheng-bi-wu-zi-ge-sai-fu-wu-qi-ti-fen-xi.txt",
+    "tools": {
+      "MySQL": 4,
+      "grep": 2
+    }
+  }
+]

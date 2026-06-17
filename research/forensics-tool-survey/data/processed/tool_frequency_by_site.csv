@@ -1,0 +1,120 @@
+﻿site,tool,count
+didctf,盘古石,22
+didctf,Volatility,10
+didctf,美亚取证,6
+didctf,YARA,6
+didctf,Zeek,3
+didctf,FTK Imager,2
+didctf,MemProcFS,2
+didctf,ExifTool,2
+didctf,John the Ripper,2
+didctf,Autopsy,1
+didctf,Wireshark,1
+didctf,NetworkMiner,1
+didctf,binwalk,1
+didctf,foremost,1
+didctf,scalpel,1
+didctf,CyberChef,1
+didctf,StegSolve,1
+didctf,zsteg,1
+didctf,Kubernetes,1
+didctf,hashcat,1
+didctf,Ghidra,1
+didctf_external,火眼证据分析,236
+didctf_external,Docker,176
+didctf_external,file,149
+didctf_external,MySQL,132
+didctf_external,Kubernetes,47
+didctf_external,hashcat,41
+didctf_external,Redis,41
+didctf_external,盘古石,32
+didctf_external,grep,30
+didctf_external,FTK Imager,26
+didctf_external,美亚取证,21
+didctf_external,find,19
+didctf_external,IDA,18
+didctf_external,Volatility,17
+didctf_external,strings,16
+didctf_external,CyberChef,14
+didctf_external,010 Editor,14
+didctf_external,ADB,12
+didctf_external,JADX,12
+didctf_external,VMware,11
+didctf_external,Wireshark,10
+didctf_external,sqlite3,10
+didctf_external,John the Ripper,8
+didctf_external,qemu,5
+didctf_external,7-Zip,5
+didctf_external,取证大师,5
+didctf_external,雷电 APP 智能分析,5
+didctf_external,binwalk,4
+didctf_external,弘连,4
+didctf_external,tshark,3
+didctf_external,HashMyFiles,3
+didctf_external,火眼仿真取证,3
+didctf_external,SQLite Browser,3
+didctf_external,VirtualBox,2
+didctf_external,R-Studio,2
+didctf_external,X-Ways Forensics,2
+didctf_external,Ghidra,1
+xidian,火眼证据分析,316
+xidian,Docker,298
+xidian,MySQL,186
+xidian,file,141
+xidian,John the Ripper,76
+xidian,美亚取证,58
+xidian,hashcat,58
+xidian,FTK Imager,54
+xidian,VMware,48
+xidian,Kubernetes,43
+xidian,X-Ways Forensics,42
+xidian,IDA,39
+xidian,盘古石,32
+xidian,Volatility,29
+xidian,JADX,28
+xidian,ADB,28
+xidian,取证大师,27
+xidian,010 Editor,26
+xidian,Wireshark,24
+xidian,CyberChef,23
+xidian,grep,22
+xidian,弘连,22
+xidian,strings,20
+xidian,qemu,20
+xidian,Redis,18
+xidian,find,18
+xidian,7-Zip,14
+xidian,SQLite Browser,11
+xidian,sqlite3,10
+xidian,雷电 APP 智能分析,9
+xidian,HashMyFiles,9
+xidian,火眼仿真取证,8
+xidian,Autopsy,8
+xidian,binwalk,7
+xidian,R-Studio,5
+xidian,foremost,3
+xidian,StegSolve,3
+xidian,Audacity,2
+xidian,VirtualBox,2
+xidian,MemProcFS,2
+xidian,apktool,1
+xidian,Ghidra,1
+yagami,MySQL,326
+yagami,Docker,188
+yagami,grep,128
+yagami,Kubernetes,46
+yagami,Redis,34
+yagami,find,31
+yagami,hashcat,16
+yagami,file,16
+yagami,盘古石,10
+yagami,qemu,9
+yagami,VMware,6
+yagami,John the Ripper,6
+yagami,FTK Imager,6
+yagami,xxd,4
+yagami,X-Ways Forensics,2
+yagami,VirtualBox,2
+yagami,strings,1
+yagami,R-Studio,1
+yagami,sqlite3,1
