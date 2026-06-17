@@ -34,7 +34,7 @@
 
 ## 下一阶段优先更新工具
 
-下面清单来自最新版 [工具频率总表](research/forensics-tool-survey/tool_frequency_total.csv)，该表由 [build_tool_frequency_total.py](research/forensics-tool-survey/scripts/build_tool_frequency_total.py) 重建，候选来源包括旧版手工别名、[DIDCTF 工具数据库](research/forensics-tool-survey/didctf_tool_database.csv) 的 135 个工具名，以及补充的高可信取证工具名。当前总表共 168 行，并新增 `deployment`、`license_type`、`domestic_vendor` 三个字段，用于区分在线工具、本地工具、开源工具、商业工具和国内取证厂商工具。
+下面清单来自最新版 [工具频率总表](research/forensics-tool-survey/tool_frequency_total.csv)，该表由 [build_tool_frequency_total.py](research/forensics-tool-survey/scripts/build_tool_frequency_total.py) 重建，候选来源包括旧版手工别名、[DIDCTF 工具数据库](research/forensics-tool-survey/didctf_tool_database.csv) 的 135 个工具名，以及补充的高可信取证工具名。当前总表共 168 行，并新增 `deployment`、`license_type`、`domestic_vendor`、`already_in_project`、`project_match` 字段，用于区分在线工具、本地工具、开源工具、商业工具和国内取证厂商工具。
 
 | 工具 | 频次 | 更新重点 | 来源 |
 | --- | ---: | --- | --- |
@@ -65,7 +65,6 @@
 | 7-Zip | 19 | 压缩包处理、批量解包 | [官网](https://www.7-zip.org/) |
 | Autopsy | 18 | 磁盘镜像、时间线分析 | [GitHub](https://github.com/sleuthkit/autopsy) / [官网](https://www.autopsy.com/) |
 
-国内取证厂商工具会在 CSV 的 `domestic_vendor` 字段中单独标记，当前已明确归类：`盘古石 -> 盘古石`，`美亚取证 / 取证大师 -> 美亚柏科`，`弘连 / 火眼证据分析 / 火眼仿真取证 / 雷电 APP 智能分析 -> 弘连`。
 
 ## 参与贡献
 
@@ -79,9 +78,6 @@
 
 详细贡献说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-## 许可证与来源说明
-
-本仓库从上游项目 fork 而来。上游仓库当前未声明明确开源许可证，因此本项目在再分发、二次开发和合并第三方工具时会尽量保留来源信息，并优先收录许可证清晰、允许再分发或可通过官方渠道安装的工具。更多说明见 [NOTICE.md](NOTICE.md)。
 ---
 
 <h1 align="center">Windows11 Penetration Suite Toolkit v6.0</h1>

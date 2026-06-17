@@ -39,8 +39,10 @@ DIDCTF 中保存的站内 WP 页面和外链 WP 页面已经合并到同一个 `
 - `deployment`：使用形态，当前包括 `local`、`online`、`vendor_platform`
 - `license_type`：授权/来源类型，当前包括 `open_source`、`commercial`、`freeware`、`unknown`
 - `domestic_vendor`：国内取证厂商归属；例如盘古石、美亚柏科、弘连等
+- `already_in_project`：该工具是否已出现在当前项目原有工具清单中，取值为 `yes` 或 `no`
+- `project_match`：匹配到的原有项目工具名称，用于复核 `already_in_project`
 
-该表目前用于确定虚拟机优先更新的工具。候选工具来自三部分：旧版手工别名词典、[didctf_tool_database.csv](didctf_tool_database.csv) 的工具名，以及根据 WP 内容补充的高可信取证工具名。当前总表 168 行，例如 `hashcat`、`Frida`、`FTK Imager`、`Volatility`、`Wireshark`、`CyberChef`、`binwalk`、`Autopsy` 等。表中同时标记了工具使用形态、授权/来源类型和国内厂商归属，便于后续筛选虚拟机优先集成项。
+该表目前用于确定虚拟机优先更新的工具。候选工具来自三部分：旧版手工别名词典、[didctf_tool_database.csv](didctf_tool_database.csv) 的工具名，以及根据 WP 内容补充的高可信取证工具名。当前总表 168 行，例如 `hashcat`、`Frida`、`FTK Imager`、`Volatility`、`Wireshark`、`CyberChef`、`binwalk`、`Autopsy` 等。表中同时标记了工具使用形态、授权/来源类型、国内厂商归属，以及是否已在当前项目原有工具清单中，便于后续筛选虚拟机优先集成项。
 
 ### DIDCTF 工具数据库
 

@@ -5,9 +5,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = ROOT.parents[1]
 TEXT_ROOT = ROOT / "data" / "text"
 TOOL_DB = ROOT / "didctf_tool_database.csv"
 OUT = ROOT / "tool_frequency_total.csv"
+PROJECT_README = PROJECT_ROOT / "README.md"
 
 
 LEGACY_ALIASES = {
@@ -290,6 +292,36 @@ DOMESTIC_VENDOR_TOOLS = {
 }
 
 
+PROJECT_TOOL_ALIASES = {
+    "hashcat": ["Hashcat"],
+    "John the Ripper": ["John", "Johnny"],
+    "Volatility": ["Volatility2", "Volatility3"],
+    "Wireshark": ["WireShark", "Wireshark"],
+    "DIE": ["DetectItEasy"],
+    "JADX": ["Jadx-GUI", "SuperJadx"],
+    "ADB": ["AdbDriver"],
+    "binwalk": ["Binwalk"],
+    "SQLite Browser": ["sqLite"],
+    "foremost": ["Foremost"],
+    "StegSolve": ["Stegsolve"],
+    "Steghide": ["Steghide"],
+    "CyberChef": ["CyberChef"],
+    "IDA": ["IDAPro"],
+    "VMware": ["VMware"],
+    "7-Zip": ["7-Zip"],
+    "Autopsy": ["Autopsy", "AutoSpy"],
+    "Ghidra": ["Ghidra"],
+    "YARA": ["Yara"],
+    "ExifTool": ["ExifTool"],
+    "HxD": ["HxD"],
+    "R-Studio": ["R-Studio"],
+    "Navicat": ["Navicat"],
+    "Mimikatz": ["Mimikatz"],
+    "Frida": ["Frida"],
+    "apktool": ["Apktool", "ApkToolPlus"],
+}
+
+
 def literal_pattern(name: str) -> str:
     escaped = re.escape(name)
     if re.fullmatch(r"[A-Za-z0-9_.+ -]+", name):
@@ -345,8 +377,50 @@ def domestic_vendor(tool: str) -> str:
     return DOMESTIC_VENDOR_TOOLS.get(tool, "")
 
 
+def normalize_name(value: str) -> str:
+    return re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", value.lower())
+
+
+def extract_project_tools() -> dict[str, str]:
+    if not PROJECT_README.exists():
+        return {}
+    text = PROJECT_README.read_text(encoding="utf-8", errors="ignore")
+    marker = '<h1 align="center">Windows11 Penetration Suite Toolkit v6.0</h1>'
+    upstream = text.split(marker, 1)[1] if marker in text else text
+    matches = re.findall(r"\*\*\[([^\]]+)\]\([^)]+\)", upstream)
+    tools: dict[str, str] = {}
+    for name in matches:
+        clean = re.sub(r"\s+v?\d+(?:\.\d+)*.*$", "", name.strip(), flags=re.I)
+        if clean:
+            tools[normalize_name(clean)] = clean
+    # Include plain bold names that are not linked in the upstream README.
+    for name in re.findall(r"\*\*([A-Za-z][A-Za-z0-9 ._+-]{2,})[:：]", upstream):
+        clean = name.strip()
+        tools.setdefault(normalize_name(clean), clean)
+    known_patterns = {
+        "7-Zip": r"\b7-?Zip\b",
+        "VMware": r"\bVMware\b",
+        "AutoSpy": r"\bAutoSpy\b",
+        "WinHex": r"\bWinHex\b",
+    }
+    for name, pattern in known_patterns.items():
+        if re.search(pattern, upstream, flags=re.IGNORECASE):
+            tools.setdefault(normalize_name(name), name)
+    return tools
+
+
+def project_match(tool: str, project_tools: dict[str, str]) -> str:
+    names = [tool, *PROJECT_TOOL_ALIASES.get(tool, [])]
+    for name in names:
+        key = normalize_name(name)
+        if key in project_tools:
+            return project_tools[key]
+    return ""
+
+
 def count_tools() -> list[dict[str, int | str]]:
     candidates = load_candidates()
+    project_tools = extract_project_tools()
     totals = Counter()
     by_site: dict[str, Counter] = defaultdict(Counter)
 
@@ -374,6 +448,8 @@ def count_tools() -> list[dict[str, int | str]]:
                 "deployment": deployment_type(tool),
                 "license_type": license_type(tool),
                 "domestic_vendor": domestic_vendor(tool),
+                "already_in_project": "yes" if project_match(tool, project_tools) else "no",
+                "project_match": project_match(tool, project_tools),
             }
         )
     rows.sort(key=lambda row: (-int(row["mentions_total"]), str(row["tool"]).lower()))
@@ -394,6 +470,8 @@ def main() -> None:
                 "deployment",
                 "license_type",
                 "domestic_vendor",
+                "already_in_project",
+                "project_match",
             ],
         )
         writer.writeheader()
