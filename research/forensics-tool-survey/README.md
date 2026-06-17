@@ -25,7 +25,7 @@ DIDCTF 中保存的站内 WP 页面和外链 WP 页面已经合并到同一个 `
 
 ### WP 链接表
 
-[wp_links.csv](wp_links.csv) 记录每篇 WP 的来源站点、标题、原始链接、DIDCTF 详情页链接和外链地址。后续如果需要复查某个工具为何被统计，可以从这里追溯到原始文章。
+[wp_links.csv](wp_links.csv) 记录每篇 WP 的来源站点、标题、原始链接、DIDCTF 详情页链接和外部原文链接。后续如果需要复查某个工具为何被统计，可以从这里追溯到原始文章。
 
 ### 工具频率总表
 
@@ -33,8 +33,7 @@ DIDCTF 中保存的站内 WP 页面和外链 WP 页面已经合并到同一个 `
 
 - `tool`：工具或平台名称
 - `mentions_total`：总出现次数
-- `didctf`：DIDCTF 站内内容出现次数
-- `didctf_external`：DIDCTF 外链 WP 出现次数
+- `didctf`：DIDCTF 站内 WP 与外链 WP 合并后的出现次数
 - `xidian`：西电取证平台出现次数
 - `yagami`：Yagami 出现次数
 

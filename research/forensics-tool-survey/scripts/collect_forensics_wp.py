@@ -399,8 +399,8 @@ def crawl_didctf_external_writeups(s: requests.Session) -> list[Page]:
         return []
 
     data = json.loads(api_path.read_text(encoding="utf-8"))
-    raw_dir = ROOT / "raw" / "didctf_external"
-    text_dir = ROOT / "text" / "didctf_external"
+    raw_dir = ROOT / "raw" / "didctf"
+    text_dir = ROOT / "text" / "didctf"
     raw_dir.mkdir(parents=True, exist_ok=True)
     text_dir.mkdir(parents=True, exist_ok=True)
 
@@ -451,7 +451,7 @@ def crawl_didctf_external_writeups(s: requests.Session) -> list[Page]:
             ]
         )
         txt_path.write_text(header + extracted + "\n", encoding="utf-8", errors="replace")
-        pages.append(Page("didctf_external", title, url, raw_path, txt_path, status))
+        pages.append(Page("didctf", title, url, raw_path, txt_path, status))
         time.sleep(0.35)
 
     return pages

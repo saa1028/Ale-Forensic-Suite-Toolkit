@@ -1,40 +1,40 @@
-﻿tool,mentions_total,didctf,didctf_external,xidian,yagami
-火眼证据分析,552,0,236,316,0
-hashcat,116,1,41,58,16
-盘古石,96,22,32,32,10
-John the Ripper,92,2,8,76,6
-FTK Imager,88,2,26,54,6
-美亚取证,85,6,21,58,0
-VMware,65,0,11,48,6
-IDA,57,0,18,39,0
-Volatility,56,10,17,29,0
-X-Ways Forensics,46,0,2,42,2
-ADB,40,0,12,28,0
-010 Editor,40,0,14,26,0
-JADX,40,0,12,28,0
-CyberChef,38,1,14,23,0
-Wireshark,35,1,10,24,0
-取证大师,32,0,5,27,0
-弘连,26,0,4,22,0
-7-Zip,19,0,5,14,0
-雷电 APP 智能分析,14,0,5,9,0
-SQLite Browser,14,0,3,11,0
-binwalk,12,1,4,7,0
-HashMyFiles,12,0,3,9,0
-火眼仿真取证,11,0,3,8,0
-Autopsy,9,1,0,8,0
-R-Studio,8,0,2,5,1
-YARA,6,6,0,0,0
-VirtualBox,6,0,2,2,2
-MemProcFS,4,2,0,2,0
-foremost,4,1,0,3,0
-StegSolve,4,1,0,3,0
-Zeek,3,3,0,0,0
-Ghidra,3,1,1,1,0
-tshark,3,0,3,0,0
-ExifTool,2,2,0,0,0
-Audacity,2,0,0,2,0
-NetworkMiner,1,1,0,0,0
-scalpel,1,1,0,0,0
-zsteg,1,1,0,0,0
-apktool,1,0,0,1,0
+﻿tool,mentions_total,didctf,xidian,yagami
+火眼证据分析,552,236,316,0
+hashcat,116,42,58,16
+盘古石,96,54,32,10
+John the Ripper,92,10,76,6
+FTK Imager,88,28,54,6
+美亚取证,85,27,58,0
+VMware,65,11,48,6
+IDA,57,18,39,0
+Volatility,56,27,29,0
+X-Ways Forensics,46,2,42,2
+ADB,40,12,28,0
+010 Editor,40,14,26,0
+JADX,40,12,28,0
+CyberChef,38,15,23,0
+Wireshark,35,11,24,0
+取证大师,32,5,27,0
+弘连,26,4,22,0
+7-Zip,19,5,14,0
+雷电 APP 智能分析,14,5,9,0
+SQLite Browser,14,3,11,0
+binwalk,12,5,7,0
+HashMyFiles,12,3,9,0
+火眼仿真取证,11,3,8,0
+Autopsy,9,1,8,0
+R-Studio,8,2,5,1
+YARA,6,6,0,0
+VirtualBox,6,2,2,2
+MemProcFS,4,2,2,0
+foremost,4,1,3,0
+StegSolve,4,1,3,0
+Zeek,3,3,0,0
+Ghidra,3,2,1,0
+tshark,3,3,0,0
+ExifTool,2,2,0,0
+Audacity,2,0,2,0
+NetworkMiner,1,1,0,0
+scalpel,1,1,0,0
+zsteg,1,1,0,0
+apktool,1,0,1,0

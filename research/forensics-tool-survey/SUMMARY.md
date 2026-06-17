@@ -15,7 +15,7 @@ Use these three files for the next VM update phase:
 - `wp_links.csv`
   - source link table for collected writeups
 - `tool_frequency_total.csv`
-  - main tool ranking table with per-source counts
+  - main tool ranking table with per-source counts; DIDCTF site pages and DIDCTF external writeups are merged into one `didctf` column
 - `didctf_tool_database.csv`
   - DIDCTF tool collection table with project links
 
@@ -23,16 +23,16 @@ Use these three files for the next VM update phase:
 
 Top rows from `tool_frequency_total.csv`:
 
-| tool | mentions_total | didctf | didctf_external | xidian | yagami |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| 火眼证据分析 | 552 | 0 | 236 | 316 | 0 |
-| hashcat | 116 | 1 | 41 | 58 | 16 |
-| 盘古石 | 96 | 22 | 32 | 32 | 10 |
-| John the Ripper | 92 | 2 | 8 | 76 | 6 |
-| FTK Imager | 88 | 2 | 26 | 54 | 6 |
-| 美亚取证 | 85 | 6 | 21 | 58 | 0 |
-| VMware | 65 | 0 | 11 | 48 | 6 |
-| IDA | 57 | 0 | 18 | 39 | 0 |
+| tool | mentions_total | didctf | xidian | yagami |
+| --- | ---: | ---: | ---: | ---: |
+| 火眼证据分析 | 552 | 236 | 316 | 0 |
+| hashcat | 116 | 42 | 58 | 16 |
+| 盘古石 | 96 | 54 | 32 | 10 |
+| John the Ripper | 92 | 10 | 76 | 6 |
+| FTK Imager | 88 | 28 | 54 | 6 |
+| 美亚取证 | 85 | 27 | 58 | 0 |
+| VMware | 65 | 11 | 48 | 6 |
+| IDA | 57 | 18 | 39 | 0 |
 
 ## How To Use This For The VM
 
