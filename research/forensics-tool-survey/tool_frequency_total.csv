@@ -17,7 +17,7 @@ iLEAPP,42,14,28,0,local,open_source,
 010 Editor,40,14,26,0,local,commercial,
 ADB,40,12,28,0,local,open_source,
 JADX,40,12,28,0,local,open_source,
-取证大师,32,5,27,0,vendor_platform,commercial,取证大师
+取证大师,32,5,27,0,vendor_platform,commercial,美亚柏科
 Passware Kit,29,11,18,0,local,commercial,
 binwalk,28,12,16,0,local,open_source,
 SQLite Browser,27,5,22,0,local,open_source,
@@ -26,7 +26,7 @@ LiME,26,2,24,0,local,open_source,
 7-Zip,19,5,14,0,local,freeware,
 Autopsy,18,2,16,0,local,open_source,
 SageMath,14,14,0,0,local,open_source,
-科来网络分析系统,14,5,9,0,vendor_platform,commercial,科来
+科来网络分析系统,14,5,9,0,local,unknown,
 雷电 APP 智能分析,14,5,9,0,vendor_platform,commercial,弘连
 Mimikatz,13,7,6,0,local,open_source,
 foremost,12,6,6,0,local,open_source,
