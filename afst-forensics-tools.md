@@ -1,9 +1,9 @@
 ---
 name: afst-forensics-tools
-description: Ale Forensic Suite Toolkit (AFST) 阿乐取证工具集完整工具使用指南。涵盖 90+ 取证工具的详细使用说明，包括内存取证、磁盘取证、Android 分析、恶意代码分析、内网渗透等。支持场景化查找和 AI 辅助分析（IDA MCP / JADX MCP）。
+description: 阿乐取证工具集 (AFST) 完整工具使用指南。涵盖 90+ 取证工具的详细使用说明，包括内存取证、磁盘取证、Android 分析、恶意代码分析、内网渗透等。支持场景化查找和 AI 辅助分析（IDA MCP / JADX MCP）。
 ---
 
-# Ale Forensic Suite Toolkit (AFST) 阿乐取证工具集 - 工具使用指南
+# 阿乐取证工具集 (AFST) 工具使用指南
 
 **AI 赋能的取证工具集 · 90+ 专业工具 · 开箱即用**
 
@@ -17,7 +17,7 @@ description: Ale Forensic Suite Toolkit (AFST) 阿乐取证工具集完整工具
 1. **信息收集**: fscan, Ladon
 2. **内存采集**: Magnet RAM Capture, WinPmem
 3. **磁盘采集**: FTK Imager, KAPE
-4. **日志分析**: Hayabusa, Chainsaw
+4. **日志分析**: Hayabusa, Chainsaw, Apache Logs Viewer
 5. **内存分析**: Volatility, MemProcFS
 6. **时间线**: Plaso, Timeline Explorer
 
@@ -212,7 +212,27 @@ hayabusa.exe live-analysis
 
 ---
 
-### 9. Wireshark - 网络流量分析
+### 9. Apache Logs Viewer - Web 日志可视化
+
+**路径**: `C:\Penetration\ForensicsTools\ApacheLogsViewer\`
+
+**快速启动**:
+```bash
+httpLogsView.exe
+```
+
+**主要功能**:
+- 解析 Apache/IIS/Nginx 访问日志
+- 可视化 HTTP 请求统计
+- 按 IP/URL/状态码过滤
+- 时间线分析
+- 导出筛选结果
+
+**应用场景**: Web 服务器日志分析、攻击流量溯源、访问行为分析
+
+---
+
+### 10. Wireshark - 网络流量分析
 
 **路径**: `C:\Penetration\TrafficTools\Wireshark\`
 
@@ -230,7 +250,7 @@ frame contains "password"     # 包含关键字
 
 ---
 
-### 10. NetworkMiner - 网络取证
+### 11. NetworkMiner - 网络取证
 
 **路径**: `C:\Penetration\ForensicsTools\NetworkMiner\`
 
@@ -242,45 +262,6 @@ frame contains "password"     # 包含关键字
 - Messages: 提取聊天记录
 
 **应用场景**: 快速 PCAP 分析、自动化取证、CTF 流量题
-
----
-
-### 11. ApacheLogsViewer (httpLogsView) - Web 服务器日志分析
-
-**路径**: `C:\Penetration\ForensicsTools\ApacheLogsViewer\`
-
-**支持格式**:
-- Apache/Apache2 访问日志
-- IIS (Microsoft Internet Information Services) 日志
-- Nginx 访问日志
-- Amazon CloudFront Web 分发日志
-
-**主要功能**:
-- 可视化日志查看，支持排序和筛选
-- 按 IP、URL、状态码、User-Agent 等字段过滤
-- 导出为 HTML/XML/CSV/TXT 格式
-- 统计分析（访问量、状态码分布、热门 URL）
-- 支持多种日志格式自动识别
-
-**常用场景**:
-```
-1. Web 入侵分析
-   - 查找异常 URL 请求（SQL 注入、命令注入）
-   - 识别 WebShell 访问痕迹
-   - 分析攻击者 IP 和行为模式
-
-2. 应急响应
-   - 快速定位攻击时间线
-   - 提取恶意请求特征
-   - 溯源攻击者身份
-
-3. CTF Web 取证
-   - 分析 flag 泄漏路径
-   - 还原攻击利用链
-   - 识别隐藏的后门访问
-```
-
-**应用场景**: Web 入侵分析、日志取证、应急响应、CTF Web 题
 
 ---
 
@@ -327,7 +308,7 @@ frida -U -f com.example.app -l hook.js
 
 ---
 
-### 13. ALEAPP - Android 日志分析
+### 14. ALEAPP - Android 日志分析
 
 **路径**: `C:\Penetration\ForensicsTools\ALEAPP\`
 
@@ -343,7 +324,7 @@ frida -U -f com.example.app -l hook.js
 
 ## 🌐 内网渗透工具
 
-### 14. Mimikatz - 凭据提取
+### 15. Mimikatz - 凭据提取
 
 **路径**: `C:\Penetration\IntranetTools\Mimikatz\`
 
@@ -361,7 +342,7 @@ sekurlsa::pth /user:Admin /domain:DOMAIN /ntlm:HASH  # PTH
 
 ---
 
-### 15. BloodHound - AD 关系分析
+### 16. BloodHound - AD 关系分析
 
 **路径**: `C:\Penetration\IntranetTools\BloodHound\`
 
@@ -375,7 +356,7 @@ sekurlsa::pth /user:Admin /domain:DOMAIN /ntlm:HASH  # PTH
 
 ---
 
-### 16. fscan - 内网扫描
+### 17. fscan - 内网扫描
 
 **路径**: `C:\Penetration\ScanTools\fscan\`
 
@@ -392,7 +373,7 @@ fscan.exe -h 192.168.1.0/24 -o result.txt # 保存结果
 
 ## 🔬 逆向工程工具
 
-### 17. Ghidra - NSA 开源逆向工具
+### 18. Ghidra - NSA 开源逆向工具
 
 **路径**: `C:\Penetration\ReverseTools\Ghidra\`
 
@@ -406,7 +387,7 @@ fscan.exe -h 192.168.1.0/24 -o result.txt # 保存结果
 
 ---
 
-### 18. x64dbg - 动态调试器
+### 19. x64dbg - 动态调试器
 
 **路径**: `C:\Penetration\ReverseTools\x64dbg\`
 
@@ -421,7 +402,7 @@ fscan.exe -h 192.168.1.0/24 -o result.txt # 保存结果
 
 ---
 
-### 19. dnSpy - .NET 反编译
+### 20. dnSpy - .NET 反编译
 
 **路径**: `C:\Penetration\ReverseTools\dnSpy\`
 
@@ -435,7 +416,7 @@ fscan.exe -h 192.168.1.0/24 -o result.txt # 保存结果
 
 ---
 
-### 20. Detect It Easy - 壳检测
+### 21. Detect It Easy - 壳检测
 
 **路径**: `C:\Penetration\ReverseTools\DetectItEasy\`
 
@@ -451,7 +432,7 @@ fscan.exe -h 192.168.1.0/24 -o result.txt # 保存结果
 
 ## 🔐 密码破解工具
 
-### 21. Hashcat - GPU 加速密码破解
+### 22. Hashcat - GPU 加速密码破解
 
 **路径**: `C:\Penetration\CrackTools\hashcat\`
 
@@ -474,7 +455,7 @@ hashcat -m 0 -a 3 hash.txt ?a?a?a?a?a?a
 
 ---
 
-### 22. John the Ripper - 密码破解
+### 23. John the Ripper - 密码破解
 
 **路径**: `C:\Penetration\CrackTools\john\`
 
@@ -491,7 +472,7 @@ ssh2john id_rsa > hash.txt             # 格式转换
 
 ## 🛠️ 辅助工具
 
-### 23. CyberChef - 数据处理瑞士军刀
+### 24. CyberChef - 数据处理瑞士军刀
 
 **路径**: `C:\Penetration\CTFTools\CyberChef\`
 
@@ -506,7 +487,7 @@ ssh2john id_rsa > hash.txt             # 格式转换
 
 ---
 
-### 24. Capa - 恶意代码能力识别
+### 25. Capa - 恶意代码能力识别
 
 **路径**: `C:\Penetration\ForensicsTools\capa\`
 
@@ -521,7 +502,7 @@ capa -j malware.exe        # JSON 格式
 
 ---
 
-### 25. PEStudio - PE 文件分析
+### 26. PEStudio - PE 文件分析
 
 **路径**: `C:\Penetration\ForensicsTools\PEStudio\`
 
@@ -596,6 +577,7 @@ capa -j malware.exe        # JSON 格式
 ### 日志分析
 - Hayabusa
 - Chainsaw
+- Apache Logs Viewer
 - Eric Zimmerman Tools
 - LogParser
 - Plaso
