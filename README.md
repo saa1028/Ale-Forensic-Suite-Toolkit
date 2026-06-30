@@ -782,11 +782,11 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 ## ⭐ Star History
 
 <p align="center">
-  <a href="https://star-history.com/#saa1028/Ale-Forensic-Suite-Toolkit&Date">
+  <a href="https://www.star-history.com/?type=date&repos=saa1028%2FAle-Forensic-Suite-Toolkit">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=Date&theme=dark&t=1782809049" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=Date&t=1782809049" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=Date&t=1782809049" width="600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=date&theme=dark&legend=top-left" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=date&legend=top-left" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=date&legend=top-left" />
     </picture>
   </a>
 </p>
