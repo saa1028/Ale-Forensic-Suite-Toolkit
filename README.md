@@ -1,10 +1,6 @@
 ﻿<h1 align="center">Ale Forensic Suite Toolkit 阿乐取证工具集</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/主图.png" alt="AFST 主图">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Author-Alenm-blueviolet.svg?style=flat-square">
   <img src="https://img.shields.io/badge/Platform-Windows%2011%20VM-red.svg?style=flat-square">
   <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/stargazers"><img src="https://img.shields.io/github/stars/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Stars" alt="GitHub Stars"></a>
@@ -12,6 +8,10 @@
   <img src="https://img.shields.io/badge/Version-v20260629-orange.svg?style=flat-square">
   <img src="https://img.shields.io/badge/Tools-500%2B-blueviolet.svg?style=flat-square">
   <img src="https://img.shields.io/badge/Property-%E6%AD%A6%E5%99%A8%E5%BA%93-brightgreen.svg?style=flat-square">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/主图.png" alt="AFST 主图">
 </p>
 
 <p align="center">
