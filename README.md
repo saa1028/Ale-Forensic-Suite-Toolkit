@@ -4,19 +4,68 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Digital%20Forensics-blue.svg">
-  <img src="https://img.shields.io/badge/Platform-Windows%20VM-red.svg">
-  <img src="https://img.shields.io/badge/AI-Powered-brightgreen.svg">
-  <img src="https://img.shields.io/badge/Version-v20260629-orange.svg">
+  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/stargazers"><img src="https://img.shields.io/github/stars/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Stars" alt="GitHub Stars"></a>
+  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/network/members"><img src="https://img.shields.io/github/forks/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Forks" alt="GitHub Forks"></a>
+  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/issues"><img src="https://img.shields.io/github/issues/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Issues" alt="GitHub Issues"></a>
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square">
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Digital%20Forensics-blue.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Platform-Windows%2011%20VM-red.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/AI-Claude%20MCP%20Powered-brightgreen.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Version-v20260629-orange.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Tools-150%2B-blueviolet.svg?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="#-快速开始">快速开始</a> •
+  <a href="#-演示视频">演示视频</a> •
+  <a href="#️-界面预览">界面预览</a> •
+  <a href="#-核心价值">核心价值</a> •
+  <a href="#-工具清单">工具清单</a> •
+  <a href="#-学习资源">学习资源</a> •
+  <a href="docs/CONTRIBUTING.md">贡献指南</a>
+</p>
+
+---
+
+## 📑 目录
+
+- [💡 项目愿景](#-项目愿景)
+- [💎 核心价值](#-核心价值)
+- [🚀 快速开始](#-快速开始)
+- [🎬 演示视频](#-演示视频)
+- [🆕 更新说明](#-更新说明)
+- [🖼️ 界面预览](#️-界面预览)
+- [🔧 工具清单](#-工具清单)
+- [💻 系统环境](#-系统环境)
+- [📊 调研依据](#-调研依据)
+- [📚 学习资源](#-学习资源)
+- [🔄 历史更新](#-历史更新)
+- [🤝 参与贡献](#-参与贡献)
+- [⚠️ 免责声明](#️-免责声明)
+
+---
 
 ## 💡 项目愿景
 
 **Ale Forensic Suite Toolkit（阿乐取证工具集，简称 AFST）**是一个专为取证人员打造的 **AI 赋能的开箱即用工具集成环境**。
 
-### 🎯 核心价值
+本项目基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 二次开发，在原 Windows 安全工具虚拟机基础上，针对**数字取证、电子数据取证、应急响应、CTF Forensics、恶意代码分析**场景进行深度定制。
 
-- **AI 赋能**：集成 Claude Code + IDA MCP + JADX MCP + 26+ CTF/安全 Skills，AI 辅助逆向分析与取证
+### 🎯 适用场景
+
+- **电子数据取证**：手机取证、计算机取证、网络取证
+- **应急响应**：入侵排查、日志分析、恶意代码分析
+- **CTF 取证竞赛**：Misc、Forensics 方向题目环境
+- **取证比武**：公安、司法、企业安全取证演练
+- **安全培训**：取证技能培训、实验室环境搭建
+- **恶意代码分析**：APK、EXE、内存 dump 分析
+
+### 💎 核心价值
+
+- **AI 赋能**：集成 Claude Code + IDA MCP + JADX MCP + CTF/安全 Skills，AI 辅助逆向分析与取证
 - **开箱即用**：无需繁琐配置，一键启动所有取证工具
 - **环境隔离**：虚拟机环境 + Python venv，避免工具污染主机系统
 - **场景全覆盖**：支持电子数据取证、应急响应、CTF 取证、恶意代码分析
@@ -31,7 +80,119 @@
 5. **分析瓶颈**：复杂样本分析耗时，缺少 AI 辅助效率低下
 6. **技能缺口**：CTF 涉及多个方向，工具和技巧需要不断学习积累
 
-## 🆕 20260629 更新说明
+## 📥 获取最新版本
+
+### 下载方式
+
+**关注公众号「阿乐取证工具集」获取最新版本下载链接**
+
+<p align="center">
+  <img src="./assets/微信公众号.jpg" alt="阿乐取证工具集公众号" width="300">
+</p>
+
+- 🔄 **持续更新**：每次更新会在公众号首发最新版本下载链接
+- 📢 **更新通知**：及时获取工具更新、使用技巧、取证案例分享
+- 💬 **技术交流**：获取取证技术文章、CTF WriteUp、工具教程
+- 🎯 **问题反馈**：遇到问题可在公众号留言反馈
+
+> **提示**：镜像文件较大，使用百度网盘会员下载，更多下载方式等待补充
+
+---
+
+## 🚀 快速开始
+
+### 1. AI 辅助逆向分析
+
+#### 步骤 1：启动 JADX 或 IDA
+```powershell
+# 启动 JADX-GUI（APK 分析）
+C:\Penetration\AndroidTools\Jadx\jadx-gui-1.5.5.exe
+
+# 或启动 IDA Pro（二进制分析）
+C:\Penetration\ReverseTools\IDAPro\ida64.exe
+```
+
+#### 步骤 2：打开待分析文件
+在 JADX/IDA 中打开 APK/EXE 文件
+
+#### 步骤 3：配置 CC Switch（重要）
+在使用 Claude Code 前，需要配置 CC Switch 连接 AI 中转站或 API 接口
+#### 步骤 4：在 Claude Code 中提问
+```
+"分析 test.apk 的主要功能"
+"分析 test.apk 的回连地址"
+"这个test.exe使用了什么加密算法？"
+"列出所有调用 System.loadLibrary 的位置"
+```
+
+Claude 会自动通过 MCP 协议调用 JADX/IDA，返回分析结果。
+
+### 2. 移动端动态分析
+
+#### 启动 Frida 环境
+```powershell
+cd C:\Penetration\AndroidTools
+.\start_frida_ldplayer.ps1
+```
+
+脚本会自动：
+- 连接雷电模拟器
+- 启动 Frida Server
+- 设置端口转发
+- 启动 fridaUiTools
+
+### 3. iOS 取证分析
+
+```powershell
+# 双击桌面快捷方式 "iLEAPP GUI"
+# 或运行
+C:\Penetration\ForensicsTools\iLEAPP\iLEAPP-GUI.bat
+
+# 命令行方式
+cd C:\Penetration\ForensicsTools\iLEAPP
+.\iLEAPP-CLI.bat
+ileapp -i "D:\iOS_Data" -o "D:\Results" -t fs
+```
+
+### 4. Windows 取证分析
+
+```powershell
+# 使用 Plaso 生成时间线
+cd C:\Penetration\ForensicsTools\Plaso
+.\start.bat
+log2timeline.exe timeline.plaso D:\evidence\
+
+# 导出为 CSV
+psort.exe -o l2tcsv -w timeline.csv timeline.plaso
+```
+
+## 🎬 演示视频
+
+### 📱 AI 分析 APK 演示
+
+![AI分析APK演示](./assets/demo-apk.gif)
+
+> **完整视频**：[点击查看高清版](演示视频/AI分析apk演示.mkv)  
+> 展示如何使用 Claude Code + JADX MCP 自动分析 Android 应用，包括：
+> - 自动反编译 APK 并定位关键代码
+> - AI 识别恶意行为和隐私泄漏模式
+> - 智能生成分析报告
+
+### 💻 AI 分析 EXE 演示
+
+![AI分析EXE演示](./assets/demo-exe.gif)
+
+> **完整视频**：[点击查看高清版](演示视频/AI分析exe演示.mkv)  
+> 展示如何使用 Claude Code + IDA MCP 自动分析二进制文件，包括：
+> - 函数识别与交叉引用分析
+> - 加密算法自动识别
+> - 恶意代码模式检测
+
+**视频位置**：
+- 虚拟机内：`C:\Penetration\ForensicsTools\Forensic_Knowledge_Base\演示视频\`
+- 桌面快捷方式：双击 `视频取证工具` 可快速访问
+
+## 🆕 更新说明
 
 ### ✨ AI 分析能力大幅增强
 
@@ -47,7 +208,7 @@
   - 自动反编译、代码搜索、组件分析
   - AI 辅助识别恶意行为、隐私泄漏
 
-#### 📚 CTF 与安全技能库（26+ Skills）
+#### 📚 CTF 与安全技能库（100+ Skills）
 集成四大技能仓库，Claude 自动调用相关技能：
 1. **ctf-skills**（19 个技能）
    - 密码学、Web、Pwn、逆向、取证、Misc、OSINT、AI/ML 安全
@@ -57,6 +218,22 @@
    - WooYun 88,636 真实漏洞案例
    - OWASP Top 10 + GAARM AI 风险框架
 4. **SecSkills**（道一安全团队知识库）
+
+<p align="center">
+  <img src="./assets/screenshots/skills.png" alt="Skills 技能库" width="800">
+</p>
+
+> **Skills 技能库概览**：涵盖 100+ 个技能，持续更新中。包括：
+> - **安全渗透测试**（约 30+ 个）：CTF 相关、Pwn、逆向、Web、密码学、取证、OSINT、恶意代码分析等
+> - **开发与调试**（约 25 个）：代码审查、系统调试、测试驱动开发、前端开发、Canvas 设计、Git 工作流等
+> - **文档协作**（约 15 个）：docx、pptx、xlsx、PDF、Excel 分析、协同创作等
+> - **逆向工程**（约 15 个）：Android APK、JADX、IDA、DEX dumper、Unity IL2CPP、二进制分析、Frida、Unicorn 模拟等
+> - **AI 与创意**（约 18 个）：LLM 应用、Claude API、算法艺术、小说创作、GIF 制作等
+> - **其他专业领域**：数据库系统、深度研究、人格世观建模、天气查询等
+> 
+> 你可以使用 `/find-skills` 搜索特定领域的技能，或直接调用相关技能，AI 会自动匹配合适的技能。
+> 
+> **🔜 即将推出**：独立的**取证 Skills 库**，可直接导入到 Claude Code，专注于数字取证、应急响应、CTF 取证等场景。
 
 ### 🛠️ 新增核心取证工具
 
@@ -117,7 +294,6 @@
 - **PCHunter (系统工具)**：Rootkit 检测
 - **Process Monitor**：进程监控工具
 - **WebShellKiller**：Webshell 查杀
-- **wywz**：恶意软件检测
 
 #### 🎨 辅助工具
 - **uTools**：效率工具集合（集成多个插件）
@@ -140,23 +316,19 @@
 - **快捷启动脚本**：所有工具配备一键启动脚本
 - **桌面快捷方式**：常用工具添加桌面图标
 
-#### 📖 知识库建设
-- **取证实录视频**：实战案例录像
-- **取证知识库**：离线文档资料
-- **在线书签库**：参考奶牛快传、CTF OS、PD 等平台资源
-
 ### 🚀 特色功能
 
 #### 🤖 AI 取证分析工作流
 ```
 1. 启动 JADX-GUI / IDA Pro
 2. 打开待分析的 APK / EXE 文件
-3. 在 Claude Code 中直接询问：
+3. 配置 CC Switch 连接 AI 中转站/API 接口
+4. 在 Claude Code 中直接询问：
    - "分析这个 APK 的主要功能"
    - "查找可疑的加密函数"
    - "列出所有网络请求"
    - "识别这个函数的作用"
-4. Claude 自动调用 MCP 工具，返回分析结果
+5. Claude 自动调用 MCP 工具，返回分析结果
 ```
 
 #### 📱 移动端动态分析流程
@@ -175,18 +347,71 @@
 5. 使用 Claude 辅助编写分析报告
 ```
 
-## 📂 项目说明
+## 🖼️ 界面预览
 
-本仓库基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 二次开发，在原 Windows 安全工具虚拟机基础上，针对**数字取证、电子数据取证、应急响应、CTF Forensics、恶意代码分析**场景进行深度定制。
+### 主界面展示
 
-### 🎯 适用场景
+#### AFST 主界面 - 取证时间线视图
+<p align="center">
+  <img src="./assets/screenshots/V1.0.png" alt="AFST 主界面" width="800">
+</p>
 
-- **电子数据取证**：手机取证、计算机取证、网络取证
-- **应急响应**：入侵排查、日志分析、恶意代码分析
-- **CTF 取证竞赛**：Misc、Forensics 方向题目环境
-- **取证比武**：公安、司法、企业安全取证演练
-- **安全培训**：取证技能培训、实验室环境搭建
-- **恶意代码分析**：APK、EXE、内存 dump 分析
+> 直观的取证时间线展示，左侧文件系统树，中间核心界面展示取证时间轴，右侧十六进制查看器，底部时间线分析
+
+#### Kali Linux 集成环境
+<p align="center">
+  <img src="./assets/screenshots/kali.png" alt="Kali Linux" width="800">
+</p>
+
+> WSL Kali Linux 2025.1 完整集成，左侧终端环境，中间 Kali 桌面，右侧十六进制编辑器
+
+### 工具组织与管理
+
+#### 全部工具目录结构
+<p align="center">
+  <img src="./assets/screenshots/程序列表.png" alt="程序列表" width="800">
+</p>
+
+> 25 个工具分类文件夹，涵盖 AI 工具、安卓工具、免杀工具、审计工具、连接工具、破解工具、CTF 工具等
+
+#### 取证工具详细列表
+<p align="center">
+  <img src="./assets/screenshots/取证工具列表.png" alt="取证工具列表" width="800">
+</p>
+
+> ForensicsTools 目录包含 80+ 取证工具，包括 iLEAPP、ALEAPP、Autopsy、Volatility、MemProcFS 等核心取证工具
+
+#### uTools + 开始菜单 + Maye 分类
+<p align="center">
+  <img src="./assets/screenshots/utools插件+开始菜单+maya分类.png" alt="工具快速启动" width="800">
+</p>
+
+> uTools 效率工具集成多插件，开始菜单完整展示 AFST 工具树，Maye 快捷启动工具按字母索引分类
+
+### 在线资源与书签
+
+#### Markoob 书签管理 - 电子取证分类
+<p align="center">
+  <img src="./assets/screenshots/Markoob书签1.png" alt="书签管理1" width="800">
+</p>
+
+> 精心整理的电子取证在线资源，包括数据存储分析、APK 分析、密码破解、内网取证、Windows 取证等 30+ 分类
+
+#### Markoob 书签管理 - 渗透与工具分类
+<p align="center">
+  <img src="./assets/screenshots/Markoob书签2.png" alt="书签管理2" width="800">
+</p>
+
+> 涵盖目录探测、子域名探测、WebShell、密码破解、10CTF门、信息收集等安全测试在线资源和工具仓库
+
+### 系统性能
+
+#### 资源占用情况
+<p align="center">
+  <img src="./assets/screenshots/资源占用.png" alt="资源占用" width="800">
+</p>
+
+> 优化后的系统资源占用，左侧显示 AFST Logo 和取证时间线，右侧任务管理器展示 CPU、内存等资源使用情况
 
 ## 📊 调研依据
 
@@ -202,7 +427,78 @@
 - [西电取证平台](https://forensics.xidian.edu.cn)
 - [DIDCTF 取证平台](https://forensics.didctf.com)
 
-## 🔧 核心取证工具清单
+### 工具使用频率 Top 50
+
+基于真实取证 WP 统计，以下是出现频次最高的 50 个工具（✅ 表示已集成到 AFST）：
+
+| 排名 | 工具名称 | 出现次数 | 类型 | 已集成 | AFST 对应工具 |
+|------|---------|---------|------|--------|--------------|
+| 1 | 火眼证据分析 | 552 | 商业 | ❌ | 参考工具 |
+| 2 | hashcat | 239 | 开源 | ✅ | Hashcat |
+| 3 | Frida | 178 | 开源 | ✅ | Frida |
+| 4 | FTK Imager | 132 | 商业 | ✅ | FTK Imager |
+| 5 | Volatility | 104 | 开源 | ✅ | Volatility 2/3 |
+| 6 | 盘古石 | 96 | 商业 | ❌ | 参考工具 |
+| 7 | John the Ripper | 94 | 开源 | ✅ | John the Ripper |
+| 8 | 美亚取证 | 85 | 商业 | ❌ | 参考工具 |
+| 9 | CyberChef | 80 | 开源 | ✅ | CyberChef |
+| 10 | Wireshark | 78 | 开源 | ✅ | Wireshark |
+| 11 | VMware | 65 | 商业 | ✅ | VMware |
+| 12 | IDA | 57 | 商业 | ✅ | IDA Pro + MCP |
+| 13 | DIE | 49 | 开源 | ✅ | Detect It Easy |
+| 14 | X-Ways Forensics | 46 | 商业 | ✅ | X-Ways |
+| 15 | iLEAPP | 42 | 开源 | ✅ | iLEAPP |
+| 16 | 010 Editor | 40 | 商业 | ✅ | 010 Editor |
+| 17 | ADB | 40 | 开源 | ✅ | ADB |
+| 18 | JADX | 40 | 开源 | ✅ | JADX + MCP |
+| 19 | 取证大师 | 32 | 商业 | ❌ | 参考工具 |
+| 20 | Passware Kit | 29 | 商业 | ✅ | Passware Kit 2022 |
+| 21 | binwalk | 28 | 开源 | ✅ | Binwalk |
+| 22 | SQLite Browser | 27 | 开源 | ✅ | SQLite Browser |
+| 23 | LiME | 26 | 开源 | ✅ | LiME (Kali) |
+| 24 | 弘连 | 26 | 商业 | ❌ | 参考工具 |
+| 25 | 7-Zip | 19 | 免费 | ✅ | 7-Zip |
+| 26 | Autopsy | 18 | 开源 | ✅ | Autopsy |
+| 27 | SageMath | 14 | 开源 | ❌ | 环境依赖复杂 |
+| 28 | 科来网络分析系统 | 14 | 免费 | ✅ | 科来网络分析系统 |
+| 29 | 雷电 APP 智能分析 | 14 | 商业 | ❌ | 参考工具 |
+| 30 | Mimikatz | 13 | 开源 | ✅ | Mimikatz |
+| 31 | foremost | 12 | 开源 | ✅ | Foremost |
+| 32 | HashMyFiles | 12 | 免费 | ✅ | HashMyFiles |
+| 33 | YARA | 11 | 开源 | ✅ | YARA |
+| 34 | 火眼仿真取证 | 11 | 商业 | ❌ | 参考工具 |
+| 35 | MemProcFS | 10 | 开源 | ✅ | MemProcFS |
+| 36 | Steghide | 9 | 开源 | ✅ | Steghide |
+| 37 | R-Studio | 8 | 商业 | ✅ | R-Studio |
+| 38 | StegSolve | 8 | 开源 | ✅ | StegSolve |
+| 39 | Wazuh | 8 | 开源 | ❌ | 需容器部署 |
+| 40 | Zeek | 8 | 开源 | ❌ | 需容器部署 |
+| 41 | ALEAPP | 6 | 开源 | ✅ | ALEAPP |
+| 42 | Ghidra | 6 | 开源 | ✅ | Ghidra |
+| 43 | VirtualBox | 6 | 开源 | ❌ | 虚拟机嵌套 |
+| 44 | Zui | 6 | 开源 | ✅ | Zui (Brim) |
+| 45 | Hayabusa | 5 | 开源 | ✅ | Hayabusa |
+| 46 | WinRAR | 5 | 免费 | ❌ | 已有 7-Zip |
+| 47 | CTF-NetA | 4 | 开源 | ✅ | CTF-NetA |
+| 48 | FinalShell 密码解密 | 4 | 开源 | ✅ | FinalShell 密码解密 |
+| 49 | SQLiteStudio | 4 | 开源 | ❌ | 已有 SQLite Browser |
+| 50 | AVML | 3 | 开源 | ✅ | AVML |
+
+**统计说明**：
+- **出现次数**：该工具在所有调研 WP 中被提及的总次数
+- **已集成**：✅ 表示已内置在 AFST 中，❌ 表示未集成
+- **商业工具**：火眼、盘古石、美亚、取证大师等商业平台/工具作为参考
+- **未集成原因**：环境依赖复杂、需容器部署、虚拟机嵌套、功能重复等
+
+**覆盖率**：Top 50 工具中，适合集成的开源/商业工具覆盖率达到 **90%+**
+
+## 🔧 工具清单
+
+> **📖 完整工具列表**：
+> - **在线查看**：[原项目工具清单](https://github.com/makoto56/penetration-suite-toolkit#%EF%B8%8F-%E8%BD%AF%E4%BB%B6%E5%8F%8A%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D)（包含所有渗透测试工具的详细介绍）
+> - **本地查看**：[docs/original-pst-README.md](docs/original-pst-README.md)（原项目 README 本地副本）
+> 
+> 本项目基于原渗透工具集，**额外增强了取证、应急响应、AI 辅助分析**能力。下方列出的是 **AFST 特色工具**和核心取证工具。
 
 ### 🤖 AI 工具 (C:\Penetration\AiTools)
 
@@ -370,7 +666,7 @@
 | **RecentFile 查看器** | 最新版 | 最近文件记录 | - |
 | **GPS 经纬度查询** | 离线版 | 坐标解析工具 | - |
 
-## 💻 系统环境说明
+## 💻 系统环境
 
 ### 基础信息
 - **操作系统**：Windows 11 Workstation 24H2 x64
@@ -397,142 +693,13 @@
 - Kali 工具：`项目目录\kali\` 文件夹
 - 所有工具配备 `start.bat` 一键启动脚本，自动激活虚拟环境
 
-## 🚀 快速开始
-
-### 1. AI 辅助逆向分析
-
-#### 步骤 1：启动 JADX 或 IDA
-```powershell
-# 启动 JADX-GUI（APK 分析）
-C:\Penetration\AndroidTools\Jadx\jadx-gui-1.5.5.exe
-
-# 或启动 IDA Pro（二进制分析）
-C:\Penetration\ReverseTools\IDAPro\ida64.exe
-```
-
-#### 步骤 2：打开待分析文件
-在 JADX/IDA 中打开 APK/EXE 文件
-
-#### 步骤 3：在 Claude Code 中提问
-```
-"分析 com.example.MainActivity 的主要功能"
-"查找所有网络请求相关的代码"
-"这个加密函数使用了什么算法？"
-"列出所有调用 System.loadLibrary 的位置"
-```
-
-Claude 会自动通过 MCP 协议调用 JADX/IDA，返回分析结果。
-
-### 2. 移动端动态分析
-
-#### 启动 Frida 环境
-```powershell
-cd C:\Penetration\AndroidTools
-.\start_frida_ldplayer.ps1
-```
-
-脚本会自动：
-- 连接雷电模拟器
-- 启动 Frida Server
-- 设置端口转发
-- 启动 fridaUiTools
-
-#### 使用 fridaUiTools
-1. 在界面中选择目标进程
-2. 加载 Hook 脚本
-3. 实时查看函数调用和返回值
-
-### 3. iOS 取证分析
-
-#### 使用 iLEAPP（图形界面）
-```powershell
-# 双击桌面快捷方式 "iLEAPP GUI"
-# 或运行
-C:\Penetration\ForensicsTools\iLEAPP\iLEAPP-GUI.bat
-```
-
-#### 使用 iLEAPP（命令行）
-```powershell
-cd C:\Penetration\ForensicsTools\iLEAPP
-.\iLEAPP-CLI.bat
-
-# 分析文件系统数据
-ileapp -i "D:\iOS_Data" -o "D:\Results" -t fs
-
-# 分析 iTunes 备份
-ileapp -i "D:\Backup" -o "D:\Results" -t itunes
-```
-
-### 4. Windows 取证分析
-
-#### 快速时间线生成
-```powershell
-# 使用 Plaso 生成时间线
-cd C:\Penetration\ForensicsTools\Plaso
-.\start.bat
-log2timeline.exe timeline.plaso D:\evidence\
-
-# 导出为 CSV
-psort.exe -o l2tcsv -w timeline.csv timeline.plaso
-```
-
-#### 注册表分析
-```powershell
-# 使用 Registry Explorer
-C:\Penetration\ForensicsTools\EricZimmermanTools\RegistryExplorer\RegistryExplorer.exe
-```
-
-#### 事件日志分析
-```powershell
-# 使用 Hayabusa 威胁狩猎
-cd C:\Penetration\ForensicsTools\Hayabusa
-.\hayabusa.exe csv-timeline -d D:\logs\ -o results.csv
-```
-
-### 5. 内存取证分析
-
-#### Volatility 3 分析
-```powershell
-cd C:\Penetration\ForensicsTools\Volatility3
-.\start.bat
-
-# 查看进程列表
-python vol.py -f memory.dmp windows.pslist
-
-# 提取进程
-python vol.py -f memory.dmp windows.dumpfiles --pid 1234
-```
-
-#### MemProcFS 挂载内存
-```powershell
-cd C:\Penetration\ForensicsTools\MemProcFS
-.\MemProcFS.exe -device memory.dmp -mount M:
-```
-
-内存文件系统会挂载到 M: 盘，可直接浏览进程、文件、注册表。
-
-### 6. 网络流量分析
-
-#### 使用 Zui 分析 Zeek 日志
-```powershell
-# 启动 Zui
-C:\Penetration\ForensicsTools\Zui\Zui.exe
-
-# 导入 .pcap 文件或 Zeek 日志目录
-```
-
-#### Wireshark 深度分析
-```powershell
-C:\Penetration\TrafficTools\Wireshark\Wireshark.exe
-```
-
 ## 📚 学习资源
 
 ### 🛠️ 工具使用指南（必读）
 
-📖 **[afst-forensics-tools.md](afst-forensics-tools.md)** - 取证工具详细使用手册
+📖 **[docs/afst-forensics-tools.md](docs/afst-forensics-tools.md)** - 取证工具详细使用手册
 
-包含完整的工具使用说明，支持在 Claude Code / Cursor 中直接引用，涵盖：
+包含完整的工具使用说明，支持在 Claude Code / CodeX 中直接引用，涵盖：
 - 核心取证工具使用方法
 - 移动端取证与 CTF 工具
 - 内网渗透与逆向分析
@@ -540,22 +707,12 @@ C:\Penetration\TrafficTools\Wireshark\Wireshark.exe
 
 **在 AI 中使用**：
 ```bash
-@afst-forensics-tools.md 应急响应推荐哪些工具
-@afst-forensics-tools.md Volatility 怎么用
-@afst-forensics-tools.md JADX 如何配合 AI 分析
+@docs/afst-forensics-tools.md 应急响应推荐哪些工具
+@docs/afst-forensics-tools.md Volatility 怎么用
+@docs/afst-forensics-tools.md JADX 如何配合 AI 分析
 ```
 
-### 🎬 演示视频
-
-📹 **AI 辅助逆向分析演示**
-
-- **AI 分析 APK 演示**：展示如何使用 Claude Code + JADX MCP 自动分析 Android 应用
-- **AI 分析 EXE 演示**：展示如何使用 Claude Code + IDA MCP 自动分析二进制文件
-
-**视频位置**：
-- 虚拟机内：`C:\Penetration\ForensicsTools\Forensic_Knowledge_Base\演示视频\`
-- 桌面快捷方式：双击 `视频取证工具` 可快速访问
-- GitHub 仓库：[演示视频目录](演示视频/)
+### 📚 离线资源
 
 ### 取证实录
 - 位置：`C:\Penetration\ForensicsTools\ForensicRecorder\`
@@ -571,10 +728,10 @@ C:\Penetration\TrafficTools\Wireshark\Wireshark.exe
   - 工具文档：官方手册、GitHub 仓库
   - 学习资源：博客、论坛、视频教程
 
-## 🔄 工具更新日志
+## 🔄 历史更新
 
 ### 2026.06.29 更新
-详见本文档 [20260629 更新说明](#-20260629-更新说明) 章节
+详见本文档 [更新说明](#-更新说明) 章节
 
 ### 2025.06.06 更新（原作者）
 1. 由于微软即将对 Windows 10 结束技术支持，使用 Windows 11 母盘镜像制作
@@ -593,7 +750,7 @@ C:\Penetration\TrafficTools\Wireshark\Wireshark.exe
 - **文档修正**：补充工具说明、版本信息、使用注意事项和截图
 - **镜像构建建议**：例如系统优化、快捷启动、环境变量和依赖隔离
 
-详细贡献说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+详细贡献说明见 [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)。
 
 ## ⚠️ 免责声明
 
@@ -604,7 +761,31 @@ C:\Penetration\TrafficTools\Wireshark\Wireshark.exe
 
 ## 📧 联系方式
 
-- **作者**：Alenm (alenm1208@gmail.com)
+- **邮箱**：alenm1208@gmail.com
+- **微信**：jgotea 
+- **公众号**：阿乐取证工具集
+
+## ☕ 打赏与捐赠
+
+如果这个项目对您有帮助，欢迎请阿乐喝杯咖啡 ☕
+
+<p align="center">
+  <img src="./assets/支付宝收款码.jpg" alt="支付宝收款码" width="300">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./assets/微信收款码.jpg" alt="微信收款码" width="300">
+</p>
+
+> 您的支持是我持续更新的动力！感谢每一位支持者 🙏
+
+---
+
+## ⭐ Star History
+
+<p align="center">
+  <a href="https://star-history.com/#saa1028/Ale-Forensic-Suite-Toolkit&Date">
+    <img src="https://api.star-history.com/svg?repos=saa1028/Ale-Forensic-Suite-Toolkit&type=Date" alt="Star History Chart" width="600">
+  </a>
+</p>
 
 ---
 
