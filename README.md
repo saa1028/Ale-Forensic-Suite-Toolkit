@@ -1,4 +1,4 @@
-<h1 align="center">Ale Forensic Suite Toolkit 阿乐取证工具集</h1>
+﻿<h1 align="center">Ale Forensic Suite Toolkit 阿乐取证工具集</h1>
 <p align="center">
   <strong>AI 赋能的取证工具集 · 开箱即用 · 数字取证 · 应急响应 · CTF 取证 · 安全分析</strong>
 </p>
@@ -87,7 +87,7 @@
 **关注公众号「阿乐取证工具集」获取最新版本下载链接**
 
 <p align="center">
-  <img src="./assets/微信公众号.jpg" alt="阿乐取证工具集公众号" width="300">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/微信公众号.jpg" alt="阿乐取证工具集公众号" width="300">
 </p>
 
 - 🔄 **持续更新**：每次更新会在公众号首发最新版本下载链接
@@ -170,7 +170,7 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 ### 📱 AI 分析 APK 演示
 
-![AI分析APK演示](./assets/demo-apk.gif)
+![AI分析APK演示](https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/demo-apk.gif)
 
 > **完整视频**：[点击查看高清版](演示视频/AI分析apk演示.mkv)  
 > 展示如何使用 Claude Code + JADX MCP 自动分析 Android 应用，包括：
@@ -180,7 +180,7 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 ### 💻 AI 分析 EXE 演示
 
-![AI分析EXE演示](./assets/demo-exe.gif)
+![AI分析EXE演示](https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/demo-exe.gif)
 
 > **完整视频**：[点击查看高清版](演示视频/AI分析exe演示.mkv)  
 > 展示如何使用 Claude Code + IDA MCP 自动分析二进制文件，包括：
@@ -220,7 +220,7 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 4. **SecSkills**（道一安全团队知识库）
 
 <p align="center">
-  <img src="./assets/screenshots/skills.png" alt="Skills 技能库" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/skills.png" alt="Skills 技能库" width="800">
 </p>
 
 > **Skills 技能库概览**：涵盖 100+ 个技能，持续更新中。包括：
@@ -353,14 +353,14 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 #### AFST 主界面 - 取证时间线视图
 <p align="center">
-  <img src="./assets/screenshots/V1.0.png" alt="AFST 主界面" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/V1.0.png" alt="AFST 主界面" width="800">
 </p>
 
 > 直观的取证时间线展示，左侧文件系统树，中间核心界面展示取证时间轴，右侧十六进制查看器，底部时间线分析
 
 #### Kali Linux 集成环境
 <p align="center">
-  <img src="./assets/screenshots/kali.png" alt="Kali Linux" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/kali.png" alt="Kali Linux" width="800">
 </p>
 
 > WSL Kali Linux 2025.1 完整集成，左侧终端环境，中间 Kali 桌面，右侧十六进制编辑器
@@ -369,21 +369,21 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 #### 全部工具目录结构
 <p align="center">
-  <img src="./assets/screenshots/程序列表.png" alt="程序列表" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/程序列表.png" alt="程序列表" width="800">
 </p>
 
 > 25 个工具分类文件夹，涵盖 AI 工具、安卓工具、免杀工具、审计工具、连接工具、破解工具、CTF 工具等
 
 #### 取证工具详细列表
 <p align="center">
-  <img src="./assets/screenshots/取证工具列表.png" alt="取证工具列表" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/取证工具列表.png" alt="取证工具列表" width="800">
 </p>
 
 > ForensicsTools 目录包含 80+ 取证工具，包括 iLEAPP、ALEAPP、Autopsy、Volatility、MemProcFS 等核心取证工具
 
 #### uTools + 开始菜单 + Maye 分类
 <p align="center">
-  <img src="./assets/screenshots/utools插件+开始菜单+maya分类.png" alt="工具快速启动" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/utools插件+开始菜单+maya分类.png" alt="工具快速启动" width="800">
 </p>
 
 > uTools 效率工具集成多插件，开始菜单完整展示 AFST 工具树，Maye 快捷启动工具按字母索引分类
@@ -392,14 +392,14 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 #### Markoob 书签管理 - 电子取证分类
 <p align="center">
-  <img src="./assets/screenshots/Markoob书签1.png" alt="书签管理1" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/Markoob书签1.png" alt="书签管理1" width="800">
 </p>
 
 > 精心整理的电子取证在线资源，包括数据存储分析、APK 分析、密码破解、内网取证、Windows 取证等 30+ 分类
 
 #### Markoob 书签管理 - 渗透与工具分类
 <p align="center">
-  <img src="./assets/screenshots/Markoob书签2.png" alt="书签管理2" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/Markoob书签2.png" alt="书签管理2" width="800">
 </p>
 
 > 涵盖目录探测、子域名探测、WebShell、密码破解、10CTF门、信息收集等安全测试在线资源和工具仓库
@@ -408,7 +408,7 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 #### 资源占用情况
 <p align="center">
-  <img src="./assets/screenshots/资源占用.png" alt="资源占用" width="800">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/资源占用.png" alt="资源占用" width="800">
 </p>
 
 > 优化后的系统资源占用，左侧显示 AFST Logo 和取证时间线，右侧任务管理器展示 CPU、内存等资源使用情况
@@ -770,9 +770,9 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 如果这个项目对您有帮助，欢迎请阿乐喝杯咖啡 ☕
 
 <p align="center">
-  <img src="./assets/支付宝收款码.jpg" alt="支付宝收款码" width="300">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/支付宝收款码.jpg" alt="支付宝收款码" width="300">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./assets/微信收款码.jpg" alt="微信收款码" width="300">
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/微信收款码.jpg" alt="微信收款码" width="300">
 </p>
 
 > 您的支持是我持续更新的动力！感谢每一位支持者 🙏
