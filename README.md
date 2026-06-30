@@ -50,9 +50,9 @@
 
 ## 💡 项目愿景
 
-**Ale Forensic Suite Toolkit（阿乐取证工具集，简称 AFST）**是一个专为取证人员打造的 **AI 赋能的开箱即用工具集成环境**。
+**Ale Forensic Suite Toolkit（阿乐取证工具集，简称 AFST）** 是一个专为取证人员打造的 AI 赋能的开箱即用工具集成环境。
 
-本项目基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 二次开发，在原 Windows 安全工具虚拟机基础上，针对**数字取证、电子数据取证、应急响应、CTF Forensics、恶意代码分析**场景进行深度定制。
+本项目基于 [makoto56/penetration-suite-toolkit](https://github.com/makoto56/penetration-suite-toolkit) 二次开发，在原 Windows 安全工具虚拟机基础上，针对数字取证、电子数据取证、应急响应、CTF Forensics、恶意代码分析场景进行深度定制。
 
 ### 🎯 适用场景
 
