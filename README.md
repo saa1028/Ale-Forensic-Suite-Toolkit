@@ -406,7 +406,7 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
   <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/Markoob书签2.png" alt="书签管理2" width="800">
 </p>
 
-> 涵盖目录探测、子域名探测、WebShell、密码破解、10CTF门、信息收集等安全测试在线资源和工具仓库
+> 涵盖目录探测、子域名探测、WebShell、密码破解、CTF 入门、信息收集等安全测试在线资源和工具仓库
 
 ### 系统性能
 
