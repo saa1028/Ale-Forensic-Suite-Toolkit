@@ -1,21 +1,17 @@
 ﻿<h1 align="center">Ale Forensic Suite Toolkit 阿乐取证工具集</h1>
+
 <p align="center">
-  <strong>AI 赋能的取证工具集 · 开箱即用 · 数字取证 · 应急响应 · CTF 取证 · 安全分析</strong>
+  <img src="https://raw.githubusercontent.com/saa1028/Ale-Forensic-Suite-Toolkit/main/assets/screenshots/主图.png" alt="AFST 主图">
 </p>
 
 <p align="center">
-  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/stargazers"><img src="https://img.shields.io/github/stars/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Stars" alt="GitHub Stars"></a>
-  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/network/members"><img src="https://img.shields.io/github/forks/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Forks" alt="GitHub Forks"></a>
-  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/issues"><img src="https://img.shields.io/github/issues/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Issues" alt="GitHub Issues"></a>
-  <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Digital%20Forensics-blue.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Author-Alenm-blueviolet.svg?style=flat-square">
   <img src="https://img.shields.io/badge/Platform-Windows%2011%20VM-red.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/AI-Claude%20MCP%20Powered-brightgreen.svg?style=flat-square">
+  <a href="https://github.com/saa1028/Ale-Forensic-Suite-Toolkit/stargazers"><img src="https://img.shields.io/github/stars/saa1028/Ale-Forensic-Suite-Toolkit?style=flat-square&logo=github&label=Stars" alt="GitHub Stars"></a>
+  <img src="https://img.shields.io/badge/Focus-Digital%20Forensics-blue.svg?style=flat-square">
   <img src="https://img.shields.io/badge/Version-v20260629-orange.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/Tools-150%2B-blueviolet.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Tools-500%2B-blueviolet.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Property-%E6%AD%A6%E5%99%A8%E5%BA%93-brightgreen.svg?style=flat-square">
 </p>
 
 <p align="center">
@@ -794,7 +790,6 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
     </picture>
   </a>
 </p>
-
 ---
 
 <p align="center">
