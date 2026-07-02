@@ -706,10 +706,24 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 **在 AI 中使用**：
 ```bash
-@docs/afst-forensics-tools.md 应急响应推荐哪些工具
-@docs/afst-forensics-tools.md Volatility 怎么用
-@docs/afst-forensics-tools.md JADX 如何配合 AI 分析
+@afst-forensics-tools 应急响应推荐哪些工具
+@afst-forensics-tools Volatility 怎么用
+@afst-forensics-tools JADX 如何配合 AI 分析
 ```
+
+### 🎯 导入取证技能库
+
+本项目提供独立的取证技能库（`skills.7z`），可直接导入到 Claude Code 使用：
+
+**导入方法**：
+1. 解压 `skills.7z` 文件
+2. 将解压后的技能文件夹复制到 `C:\Users\Anonymous\.claude\skills\`
+3. 重启 Claude Code 即可使用
+
+**技能库说明**：
+- 包含取证、应急响应、CTF 等专业技能
+- 持续更新，建议定期从仓库获取最新版本
+- 可配合 AFST 工具集使用，提升分析效率
 
 ### 📚 离线资源
 
