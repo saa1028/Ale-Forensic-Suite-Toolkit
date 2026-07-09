@@ -53,6 +53,7 @@
 
 - **电子数据取证**：手机取证、计算机取证、网络取证
 - **应急响应**：入侵排查、日志分析、恶意代码分析
+- **远程服务器取证**：Linux 服务器应急响应、SSH 远程取证、实时分析
 - **CTF 取证竞赛**：Misc、Forensics 方向题目环境
 - **取证比武**：公安、司法、企业安全取证演练
 - **安全培训**：取证技能培训、实验室环境搭建
@@ -60,10 +61,10 @@
 
 ### 💎 核心价值
 
-- **AI 赋能**：集成 Claude Code + IDA MCP + JADX MCP + CTF/安全 Skills，AI 辅助逆向分析与取证
+- **AI 赋能**：集成 Claude Code + CodeX + IDA MCP + JADX MCP + SSH MCP + 100+ CTF/安全 Skills，AI 辅助逆向分析与远程取证
 - **开箱即用**：无需繁琐配置，一键启动所有取证工具
 - **环境隔离**：虚拟机环境 + Python venv，避免工具污染主机系统
-- **场景全覆盖**：支持电子数据取证、应急响应、CTF 取证、恶意代码分析
+- **场景全覆盖**：支持电子数据取证、应急响应、远程服务器取证、CTF 取证、恶意代码分析
 - **持续更新**：基于真实 WP 调研，优先更新高频实战工具
 
 ### 🔥 解决的痛点
@@ -96,7 +97,31 @@
 
 ## 🚀 快速开始
 
-### 1. AI 辅助逆向分析
+### 1. AI 辅助远程服务器取证（新功能）
+
+#### 步骤 1：确保 SSH MCP Server 已配置
+SSH MCP Server 已预配置在 Claude Code 和 CodeX 中
+
+#### 步骤 2：在 Claude Code / CodeX 中直接操作
+```
+"连接到 192.168.1.100 服务器"
+"检查服务器上的可疑进程"
+"分析 /var/log/auth.log 中的失败登录"
+"下载 /tmp/suspicious.elf 到本地分析"
+"查找最近修改的文件"
+```
+
+AI 会自动通过 SSH MCP 协议连接远程服务器，执行取证操作。
+
+**优势**：
+- 🚀 自然语言操作，无需记忆复杂命令
+- 🔒 基于 SSH 协议，安全可靠
+- 💾 支持文件上传下载
+- 🔍 可与本地工具（Volatility、IDA 等）无缝配合
+
+### 2. AI 辅助逆向分析
+
+### 2. AI 辅助逆向分析
 
 #### 步骤 1：启动 JADX 或 IDA
 ```powershell
@@ -122,7 +147,7 @@ C:\Penetration\ReverseTools\IDAPro\ida64.exe
 
 Claude 会自动通过 MCP 协议调用 JADX/IDA，返回分析结果。
 
-### 2. 移动端动态分析
+### 3. 移动端动态分析
 
 #### 启动 Frida 环境
 ```powershell
@@ -136,7 +161,7 @@ cd C:\Penetration\AndroidTools
 - 设置端口转发
 - 启动 fridaUiTools
 
-### 3. iOS 取证分析
+### 4. iOS 取证分析
 
 ```powershell
 # 双击桌面快捷方式 "iLEAPP GUI"
@@ -149,7 +174,7 @@ cd C:\Penetration\ForensicsTools\iLEAPP
 ileapp -i "D:\iOS_Data" -o "D:\Results" -t fs
 ```
 
-### 4. Windows 取证分析
+### 5. Windows 取证分析
 
 ```powershell
 # 使用 Plaso 生成时间线
@@ -191,9 +216,18 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 ### ✨ AI 分析能力大幅增强
 
-#### 🤖 Claude Code 深度集成
-- **安装 Claude Code**：官方 AI 编程助手，支持代码分析、自动化脚本编写
+#### 🤖 AI 工具深度集成
+- **Claude Code**：Anthropic 官方 AI 编程助手，支持代码分析、自动化脚本编写
+- **CodeX**：OpenAI 官方 AI 开发工具，完整导入 Claude Code 的 MCP 和 Skills
 - **Cursor AI 编辑器**：AI 驱动的代码编辑器，支持自然语言编程
+
+#### 🌐 远程服务器取证（新增）
+- **SSH MCP Server 集成**：通过 SSH 协议进行 AI 驱动的远程服务器取证
+  - 自然语言操作远程服务器，无需记忆复杂命令
+  - 支持实时分析、文件上传下载、日志分析
+  - 与本地工具链（Volatility、IDA、JADX）无缝配合
+  - 适用场景：Linux 服务器应急响应、入侵排查、日志取证
+  - 已同时集成到 Claude Code 和 CodeX
 
 #### 🔍 逆向分析 AI 加持
 - **IDA Pro MCP 集成**：Claude 可直接调用 IDA 分析二进制文件
@@ -204,7 +238,7 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
   - AI 辅助识别恶意行为、隐私泄漏
 
 #### 📚 CTF 与安全技能库（100+ Skills）
-集成四大技能仓库，Claude 自动调用相关技能：
+集成四大技能仓库，Claude Code 和 CodeX 自动调用相关技能：
 1. **ctf-skills**（19 个技能）
    - 密码学、Web、Pwn、逆向、取证、Misc、OSINT、AI/ML 安全
 2. **awesome-skills-security**（7 个工具技能）
@@ -219,16 +253,16 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 </p>
 
 > **Skills 技能库概览**：涵盖 100+ 个技能，持续更新中。包括：
-> - **安全渗透测试**（约 30+ 个）：CTF 相关、Pwn、逆向、Web、密码学、取证、OSINT、恶意代码分析等
+> - **安全渗透测试**（约 30+ 个）：CTF 相关、Pwn、逆向、Web、密码学、取证、OSINT、恶意代码分析、SSH 渗透测试等
 > - **开发与调试**（约 25 个）：代码审查、系统调试、测试驱动开发、前端开发、Canvas 设计、Git 工作流等
 > - **文档协作**（约 15 个）：docx、pptx、xlsx、PDF、Excel 分析、协同创作等
 > - **逆向工程**（约 15 个）：Android APK、JADX、IDA、DEX dumper、Unity IL2CPP、二进制分析、Frida、Unicorn 模拟等
 > - **AI 与创意**（约 18 个）：LLM 应用、Claude API、算法艺术、小说创作、GIF 制作等
-> - **其他专业领域**：数据库系统、深度研究、人格世观建模、天气查询等
+> - **其他专业领域**：数据库系统、深度研究、人格世观建模、天气查询、服务器审计等
 > 
 > 你可以使用 `/find-skills` 搜索特定领域的技能，或直接调用相关技能，AI 会自动匹配合适的技能。
 > 
-> **🔜 即将推出**：独立的**取证 Skills 库**，可直接导入到 Claude Code，专注于数字取证、应急响应、CTF 取证等场景。
+> **✅ 已完成**：独立的 **AFST 取证 Skills 库**，已同步到 Claude Code 和 CodeX，专注于数字取证、应急响应、远程服务器取证、CTF 取证等场景。
 
 ### 🛠️ 新增核心取证工具
 
@@ -313,12 +347,25 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 ### 🚀 特色功能
 
-#### 🤖 AI 取证分析工作流
+#### 🌐 AI 远程服务器取证工作流（新增）
+```
+1. 在 Claude Code / CodeX 中直接操作
+2. 使用自然语言连接和操作远程服务器：
+   - "连接到 192.168.1.100 服务器"
+   - "检查服务器上的可疑进程"
+   - "分析 /var/log/auth.log 中的失败登录"
+   - "下载 /tmp/suspicious.elf 到本地"
+   - "查找最近 24 小时修改的文件"
+3. AI 自动通过 SSH MCP 执行取证操作
+4. 结合本地工具分析下载的文件
+```
+
+#### 🤖 AI 逆向分析工作流
 ```
 1. 启动 JADX-GUI / IDA Pro
 2. 打开待分析的 APK / EXE 文件
 3. 配置 CC Switch 连接 AI 中转站/API 接口
-4. 在 Claude Code 中直接询问：
+4. 在 Claude Code / CodeX 中直接询问：
    - "分析这个 APK 的主要功能"
    - "查找可疑的加密函数"
    - "列出所有网络请求"
@@ -335,11 +382,14 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 
 #### 🔍 综合取证分析流程
 ```
-1. 使用 iLEAPP/ALEAPP 快速提取工件
-2. 用 Arsenal Image Mounter 挂载镜像
-3. Eric Zimmerman Tools 分析 Windows 痕迹
-4. Plaso 生成时间线
-5. 使用 Claude 辅助编写分析报告
+1. 远程服务器取证（SSH MCP）
+   - AI 自然语言操作远程服务器
+   - 下载可疑文件到本地
+2. 使用 iLEAPP/ALEAPP 快速提取工件
+3. 用 Arsenal Image Mounter 挂载镜像
+4. Eric Zimmerman Tools 分析 Windows 痕迹
+5. Plaso 生成时间线
+6. 使用 Claude / CodeX 辅助编写分析报告
 ```
 
 ## 🖼️ 界面预览
@@ -504,11 +554,13 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 | 工具 | 版本 | 说明 | 官网 |
 | --- | --- | --- | --- |
 | **Claude Code** | 最新版 | Anthropic AI 编程助手，支持 MCP 协议 | [claude.ai](https://claude.ai/code) |
+| **CodeX** | 最新版 | OpenAI AI 开发工具，已导入 MCP 和 Skills | [openai.com](https://openai.com/codex) |
 | **Cursor** | v0.50.5 | AI 代码编辑器 | [cursor.com](https://www.cursor.com/) |
 | **CherryStudio** | v1.3.12 | AI 资源聚合工具 | [cherry-ai.com](https://www.cherry-ai.com/) |
-| **CTF Skills** | 2026.06 | 26+ 安全技能库（CTF/取证/渗透） | 集成 |
+| **CTF Skills** | 2026.07 | 100+ 安全技能库（CTF/取证/渗透） | 集成 |
 | **IDA MCP Server** | v6.4.0 | IDA Pro MCP 集成，支持 AI 分析二进制 | 集成 |
 | **JADX MCP Server** | v6.4.0 | JADX MCP 集成，支持 AI 分析 APK | 集成 |
+| **SSH MCP Server** | 最新版 | SSH 远程服务器 AI 取证，支持自然语言操作 | 集成 |
 
 ### 📱 移动端取证 (C:\Penetration\AndroidTools & ForensicsTools)
 
@@ -709,32 +761,39 @@ psort.exe -o l2tcsv -w timeline.csv timeline.plaso
 @afst-forensics-tools 应急响应推荐哪些工具
 @afst-forensics-tools Volatility 怎么用
 @afst-forensics-tools JADX 如何配合 AI 分析
+@afst-forensics-tools 如何进行远程服务器取证
 ```
 
 ### 🎯 导入取证技能库
 
-本项目提供独立的取证技能库（`skills.7z`），可直接导入到 Claude Code / CodeX 使用：
+本项目提供独立的取证技能库（`skills.7z`），**已预装到虚拟机**，同时可直接导入到 Claude Code / CodeX 使用：
+
+**虚拟机中已预装**：
+- Claude Code 技能库：`C:\Users\Anonymous\.claude\skills\`
+- CodeX 技能库：`C:\Users\Anonymous\.codex\skills\`
+- **包含 AFST 专用技能**：远程服务器取证、应急响应、恶意代码分析等
 
 **方法一：Claude Code 手动导入**
 1. 解压 `skills.7z` 文件
 2. 将解压后的技能文件夹复制到 `C:\Users\Anonymous\.claude\skills\`
 3. 重启 Claude Code 即可使用
 
-**方法二：CodeX 向导导入（推荐）**
+**方法二：CodeX 自动同步（推荐）**
 1. 打开 CodeX
-2. 在初始化向导中选择"从 Claude Code 导入技能库"
-3. CodeX 会自动同步 Claude Code 中的所有技能
+2. CodeX 已自动导入 Claude Code 的 MCP 配置和 Skills
+3. 直接使用即可，无需手动配置
 
 **方法三：CodeX 手动导入**
 1. 解压 `skills.7z` 文件
-2. 将解压后的技能文件夹直接复制到 CodeX 的技能目录
+2. 将解压后的技能文件夹直接复制到 `C:\Users\Anonymous\.codex\skills\`
 3. 重启 CodeX 即可使用
 
 **技能库说明**：
-- 包含取证、应急响应、CTF 等专业技能
+- 包含取证、应急响应、远程服务器取证、CTF 等专业技能
+- 支持 SSH MCP、IDA MCP、JADX MCP 等 AI 工具集成
 - 持续更新，建议定期从仓库获取最新版本
 - 可配合 AFST 工具集使用，提升分析效率
-- Claude Code 和 CodeX 可共享同一套技能库
+- Claude Code 和 CodeX 可共享同一套技能库和 MCP 配置
 
 ### 📚 离线资源
 
